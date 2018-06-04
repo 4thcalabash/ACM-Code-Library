@@ -3,4 +3,4 @@ project(ACM-Code-Library)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(ACM-Code-Library String/Hash-1D.cpp)
+add_executable(ACM-Code-Library String/AutoMachine/Palindromic_AutoMachine.cpp)
