@@ -10,7 +10,7 @@ char s[maxn];
 int n;
 int ans [maxn];
 /*注意需要按l将节点基数排序来拓扑更新parent树*/
-struct Suffix_AutoMachine{
+struct Suffix_Automaton{
     //basic
     int nxt[maxn*2][26],fa[maxn*2],l[maxn*2];
     int last,cnt;

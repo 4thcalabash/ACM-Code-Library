@@ -6,7 +6,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 const int maxn = 3e5+100;
-struct Palindromic_AutoMachine{
+struct Palindromic_AutoMaton{
     //basic
     int s[maxn],now;
     int nxt[maxn][26],fail[maxn],l[maxn],last,tot;
@@ -20,7 +20,7 @@ struct Palindromic_AutoMachine{
         memset(nxt[0],0,sizeof nxt[0]);
         memset(nxt[1],0,sizeof nxt[1]);
     }
-    Palindromic_AutoMachine(){clear();}
+    Palindromic_AutoMaton(){clear();}
     int newnode(int ll){
         tot++;
         memset(nxt[tot],0,sizeof nxt[tot]);
@@ -62,7 +62,7 @@ struct Palindromic_AutoMachine{
     }
     long long query();
 }pam;
-long long Palindromic_AutoMachine::query(){
+long long Palindromic_AutoMaton::query(){
     long long ret =1;
     for (int i=2;i<=tot;i++){
         ret = max(ret,1LL*l[i]*num[i]);
