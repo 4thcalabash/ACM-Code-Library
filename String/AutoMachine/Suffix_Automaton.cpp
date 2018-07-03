@@ -18,8 +18,6 @@ struct Suffix_Automaton{
     int cntA[maxn*2],A[maxn*2];/*辅助拓扑更新*/
     int num[maxn*2];/*每个节点代表的所有串的出现次数*/
     void clear(){
-       memset(num,0,sizeof num);
-        memset(cntA,0,sizeof cntA);
         last =cnt=1;
         fa[1]=l[1]=0;
         memset(nxt[1],0,sizeof nxt[1]);
@@ -33,6 +31,7 @@ struct Suffix_Automaton{
     void add(int c){
         int p = last;
         int np = ++cnt;
+        memset(nxt[cnt],0,sizeof nxt[cnt]);
         l[np] = l[p]+1;
         last = np;
         while (p&&!nxt[p][c])nxt[p][c] = np,p = fa[p];
@@ -51,6 +50,8 @@ struct Suffix_Automaton{
         }
     }
     void build(){
+        memset(cntA,0,sizeof cntA);
+        memset(num,0,sizeof num);
         for (int i=1;i<=cnt;i++)cntA[l[i]]++;
         for (int i=1;i<=n;i++)cntA[i]+=cntA[i-1];
         for (int i=cnt;i>=1;i--)A[cntA[l[i]]--] =i;
