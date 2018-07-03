@@ -12,7 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56a05e1d-1796-4ea0-9f45-104f1f617551" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/String/AutoMachine/Suffix_Automaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/AutoMachine/Suffix_Automaton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -43,11 +44,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Suffix_Automaton.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Suffix_Automaton.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String/AutoMachine/Suffix_Automaton.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="247">
               <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Tree_Chain_Division.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graph/Tree/Tree_Chain_Division.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1182">
+              <caret line="9" column="13" lean-forward="true" selection-end-line="111" />
             </state>
           </provider>
         </entry>
@@ -97,7 +107,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
+              <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -123,10 +133,11 @@
         <option value="$PROJECT_DIR$/String/AutoMachine/Palindromic_Automaton.cpp" />
         <option value="$PROJECT_DIR$/String/AutoMachine/Suffix_AutoMaton.cpp" />
         <option value="$PROJECT_DIR$/Math/FFT.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/String/SA.cpp" />
         <option value="$PROJECT_DIR$/String/Suffix_Array.cpp" />
         <option value="$PROJECT_DIR$/String/AutoMachine/Suffix_Automaton.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Graph/Tree/Tree_Chain_Division.cpp" />
       </list>
     </option>
   </component>
@@ -139,8 +150,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="960" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="103" />
     <option name="y" value="27" />
     <option name="width" value="960" />
     <option name="height" value="1053" />
@@ -161,18 +172,13 @@
             <path>
               <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="Math" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoMachine" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,7 +240,7 @@
       <workItem from="1529330913487" duration="877000" />
       <workItem from="1529908714053" duration="2060000" />
       <workItem from="1529991534653" duration="625000" />
-      <workItem from="1530601320076" duration="1824000" />
+      <workItem from="1530601320076" duration="2784000" />
     </task>
     <task id="LOCAL-00001" summary="add String-Hash-1D">
       <created>1527845769136</created>
@@ -268,27 +274,27 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22723000" />
+    <option name="totallyTimeSpent" value="23683000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
+    <frame x="103" y="27" width="960" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.178515" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CMake" order="7" weight="0.32665965" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32719395" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.3261105" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32805908" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.23628692" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.4572973" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.4572973" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978904" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32805908" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -323,13 +329,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/String/Hash-1D.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/String/AutoMachine/Palindromic_Automaton.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
@@ -626,13 +625,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/String/AutoMachine/Aho-Corasick_Automaton.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="13" selection-end-line="125" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Math/FFT.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="107">
@@ -642,13 +634,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/String/SA.h">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="56" selection-start-line="4" selection-start-column="56" selection-end-line="4" selection-end-column="56" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/String/Suffix_Array.cpp">
       <provider selected="true" editor-type-id="text-editor">
@@ -661,6 +646,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
           <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/AutoMachine/Aho-Corasick_Automaton.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" selection-end-line="125" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/Tree/Tree_Chain_Division.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1182">
+          <caret line="9" column="13" lean-forward="true" selection-end-line="111" />
         </state>
       </provider>
     </entry>
