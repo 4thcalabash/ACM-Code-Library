@@ -13,7 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="56a05e1d-1796-4ea0-9f45-104f1f617551" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/Hash-1D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/Hash-1D.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Graph/Tree/Tree_Chain_Division.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Tree/Tree_Chain_Division.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +27,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Hash-1D.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hash-1D.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String/Hash-1D.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="38" column="5" lean-forward="true" selection-end-line="112" selection-end-column="1" />
+            <state relative-caret-position="152">
+              <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -53,11 +54,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Tree_Chain_Division.cpp" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Tree_Chain_Division.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Graph/Tree/Tree_Chain_Division.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="51" selection-start-line="51" selection-end-line="51" />
+            <state relative-caret-position="93">
+              <caret line="106" column="12" selection-end-line="125" />
             </state>
           </provider>
         </entry>
@@ -135,9 +136,9 @@
         <option value="$PROJECT_DIR$/String/SA.cpp" />
         <option value="$PROJECT_DIR$/String/Suffix_Array.cpp" />
         <option value="$PROJECT_DIR$/String/AutoMachine/Suffix_Automaton.cpp" />
+        <option value="$PROJECT_DIR$/String/Hash-1D.cpp" />
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Graph/Tree/Tree_Chain_Division.cpp" />
-        <option value="$PROJECT_DIR$/String/Hash-1D.cpp" />
       </list>
     </option>
   </component>
@@ -151,17 +152,16 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="960" />
-    <option name="y" value="25" />
-    <option name="width" value="960" />
-    <option name="height" value="1055" />
+    <option name="x" value="650" />
+    <option name="y" value="27" />
+    <option name="width" value="1270" />
+    <option name="height" value="1053" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,12 +183,18 @@
             <path>
               <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
+              <item name="Math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
               <item name="String" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,7 +252,10 @@
       <workItem from="1529908714053" duration="2060000" />
       <workItem from="1529991534653" duration="625000" />
       <workItem from="1530601320076" duration="5666000" />
-      <workItem from="1530694050310" duration="1186000" />
+      <workItem from="1530694050310" duration="2061000" />
+      <workItem from="1530807153588" duration="1208000" />
+      <workItem from="1530881056744" duration="6000" />
+      <workItem from="1530966587872" duration="804000" />
     </task>
     <task id="LOCAL-00001" summary="add String-Hash-1D">
       <created>1527845769136</created>
@@ -280,20 +289,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27751000" />
+    <option name="totallyTimeSpent" value="30644000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="25" width="960" height="1055" extended-state="4" />
+    <frame x="650" y="27" width="1270" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19935949" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="CMake" order="7" weight="0.3261105" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32719395" />
+      <window_info anchor="bottom" id="CMake" order="7" weight="0.32502708" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.23628692" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32805908" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32719395" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45572355" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45513514" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978904" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -303,7 +313,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32719395" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -646,13 +655,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/String/AutoMachine/Aho-Corasick_Automaton.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -660,17 +662,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/Tree/Tree_Chain_Division.cpp">
+    <entry file="file://$PROJECT_DIR$/String/Hash-1D.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="51" selection-start-line="51" selection-end-line="51" />
+        <state relative-caret-position="152">
+          <caret line="41" column="9" selection-start-line="41" selection-start-column="9" selection-end-line="41" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/String/Hash-1D.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="38" column="5" lean-forward="true" selection-end-line="112" selection-end-column="1" />
+        <state relative-caret-position="76">
+          <caret line="4" column="66" selection-start-line="4" selection-start-column="66" selection-end-line="4" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/Tree/Tree_Chain_Division.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="106" column="12" selection-end-line="125" />
         </state>
       </provider>
     </entry>
