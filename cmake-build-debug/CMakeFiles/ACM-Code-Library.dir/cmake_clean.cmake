@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ACM-Code-Library.dir/Algorithm/Multiply_LCA.cpp.o"
+  "CMakeFiles/ACM-Code-Library.dir/Data_Structure/01Trie.cpp.o"
   "ACM-Code-Library.pdb"
   "ACM-Code-Library"
 )

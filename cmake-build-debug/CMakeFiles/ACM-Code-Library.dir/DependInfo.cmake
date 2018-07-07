@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/calabash_boy/桌面/ACM-Code-Library/Algorithm/Multiply_LCA.cpp" "/home/calabash_boy/桌面/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/Algorithm/Multiply_LCA.cpp.o"
+  "/home/calabash_boy/桌面/ACM-Code-Library/Data_Structure/01Trie.cpp" "/home/calabash_boy/桌面/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/Data_Structure/01Trie.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

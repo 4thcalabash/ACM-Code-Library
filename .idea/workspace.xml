@@ -41,15 +41,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Palindromic_Automaton.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/String/AutoMachine/Palindromic_Automaton.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="11" selection-end-line="78" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Suffix_Automaton.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String/AutoMachine/Suffix_Automaton.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,11 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Multiply_LCA.cpp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Multiply_LCA.cpp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Algorithm/Multiply_LCA.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+            <state relative-caret-position="224">
+              <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="01Trie.cpp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data_Structure/01Trie.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1349">
+              <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -117,7 +117,7 @@
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="76">
-              <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+              <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -148,8 +148,9 @@
         <option value="$PROJECT_DIR$/String/Hash-1D.cpp" />
         <option value="$PROJECT_DIR$/Graph/Tree/Tree_Chain_Division.cpp" />
         <option value="$PROJECT_DIR$/Data_Structure/Chairman_Tree.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Algorithm/Multiply_LCA.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
+        <option value="$PROJECT_DIR$/Data_Structure/01Trie.cpp" />
       </list>
     </option>
   </component>
@@ -184,6 +185,11 @@
               <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
               <item name="Algorithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
+              <item name="Data_Structure" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -250,7 +256,7 @@
       <workItem from="1530694050310" duration="2061000" />
       <workItem from="1530807153588" duration="1208000" />
       <workItem from="1530881056744" duration="6000" />
-      <workItem from="1530966587872" duration="3183000" />
+      <workItem from="1530966587872" duration="3911000" />
     </task>
     <task id="LOCAL-00001" summary="add String-Hash-1D">
       <created>1527845769136</created>
@@ -284,21 +290,21 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33023000" />
+    <option name="totallyTimeSpent" value="33751000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="25" width="960" height="1055" extended-state="4" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.052183174" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.3264865" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3264865" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.3243243" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.23628692" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32719395" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3264865" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45503792" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45405406" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39978904" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -339,9 +345,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/String/AutoMachine/Aho-Corasick_Automaton.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1995">
@@ -664,17 +667,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+    <entry file="file://$PROJECT_DIR$/Algorithm/Multiply_LCA.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="58" selection-start-line="4" selection-start-column="58" selection-end-line="4" selection-end-column="58" />
+        <state relative-caret-position="224">
+          <caret line="55" column="16" selection-start-line="55" selection-start-column="16" selection-end-line="55" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Algorithm/Multiply_LCA.cpp">
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="13" selection-end-line="59" selection-end-column="13" />
+        <state relative-caret-position="76">
+          <caret line="4" column="57" selection-start-line="4" selection-start-column="57" selection-end-line="4" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data_Structure/01Trie.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1349">
+          <caret line="71" column="35" selection-start-line="71" selection-start-column="35" selection-end-line="71" selection-end-column="35" />
         </state>
       </provider>
     </entry>

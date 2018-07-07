@@ -123,32 +123,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-Algorithm/Multiply_LCA.o: Algorithm/Multiply_LCA.cpp.o
+Data_Structure/01Trie.o: Data_Structure/01Trie.cpp.o
 
-.PHONY : Algorithm/Multiply_LCA.o
+.PHONY : Data_Structure/01Trie.o
 
 # target to build an object file
-Algorithm/Multiply_LCA.cpp.o:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Multiply_LCA.cpp.o
-.PHONY : Algorithm/Multiply_LCA.cpp.o
+Data_Structure/01Trie.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Data_Structure/01Trie.cpp.o
+.PHONY : Data_Structure/01Trie.cpp.o
 
-Algorithm/Multiply_LCA.i: Algorithm/Multiply_LCA.cpp.i
+Data_Structure/01Trie.i: Data_Structure/01Trie.cpp.i
 
-.PHONY : Algorithm/Multiply_LCA.i
+.PHONY : Data_Structure/01Trie.i
 
 # target to preprocess a source file
-Algorithm/Multiply_LCA.cpp.i:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Multiply_LCA.cpp.i
-.PHONY : Algorithm/Multiply_LCA.cpp.i
+Data_Structure/01Trie.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Data_Structure/01Trie.cpp.i
+.PHONY : Data_Structure/01Trie.cpp.i
 
-Algorithm/Multiply_LCA.s: Algorithm/Multiply_LCA.cpp.s
+Data_Structure/01Trie.s: Data_Structure/01Trie.cpp.s
 
-.PHONY : Algorithm/Multiply_LCA.s
+.PHONY : Data_Structure/01Trie.s
 
 # target to generate assembly for a file
-Algorithm/Multiply_LCA.cpp.s:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Multiply_LCA.cpp.s
-.PHONY : Algorithm/Multiply_LCA.cpp.s
+Data_Structure/01Trie.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Data_Structure/01Trie.cpp.s
+.PHONY : Data_Structure/01Trie.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM-Code-Library"
-	@echo "... Algorithm/Multiply_LCA.o"
-	@echo "... Algorithm/Multiply_LCA.i"
-	@echo "... Algorithm/Multiply_LCA.s"
+	@echo "... Data_Structure/01Trie.o"
+	@echo "... Data_Structure/01Trie.i"
+	@echo "... Data_Structure/01Trie.s"
 .PHONY : help
 
 
