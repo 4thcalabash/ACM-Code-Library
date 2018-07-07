@@ -123,32 +123,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-Data_Structure/Chairman_Tree.o: Data_Structure/Chairman_Tree.cpp.o
+Algorithm/Multiply_LCA.o: Algorithm/Multiply_LCA.cpp.o
 
-.PHONY : Data_Structure/Chairman_Tree.o
+.PHONY : Algorithm/Multiply_LCA.o
 
 # target to build an object file
-Data_Structure/Chairman_Tree.cpp.o:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Data_Structure/Chairman_Tree.cpp.o
-.PHONY : Data_Structure/Chairman_Tree.cpp.o
+Algorithm/Multiply_LCA.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Multiply_LCA.cpp.o
+.PHONY : Algorithm/Multiply_LCA.cpp.o
 
-Data_Structure/Chairman_Tree.i: Data_Structure/Chairman_Tree.cpp.i
+Algorithm/Multiply_LCA.i: Algorithm/Multiply_LCA.cpp.i
 
-.PHONY : Data_Structure/Chairman_Tree.i
+.PHONY : Algorithm/Multiply_LCA.i
 
 # target to preprocess a source file
-Data_Structure/Chairman_Tree.cpp.i:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Data_Structure/Chairman_Tree.cpp.i
-.PHONY : Data_Structure/Chairman_Tree.cpp.i
+Algorithm/Multiply_LCA.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Multiply_LCA.cpp.i
+.PHONY : Algorithm/Multiply_LCA.cpp.i
 
-Data_Structure/Chairman_Tree.s: Data_Structure/Chairman_Tree.cpp.s
+Algorithm/Multiply_LCA.s: Algorithm/Multiply_LCA.cpp.s
 
-.PHONY : Data_Structure/Chairman_Tree.s
+.PHONY : Algorithm/Multiply_LCA.s
 
 # target to generate assembly for a file
-Data_Structure/Chairman_Tree.cpp.s:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Data_Structure/Chairman_Tree.cpp.s
-.PHONY : Data_Structure/Chairman_Tree.cpp.s
+Algorithm/Multiply_LCA.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Multiply_LCA.cpp.s
+.PHONY : Algorithm/Multiply_LCA.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM-Code-Library"
-	@echo "... Data_Structure/Chairman_Tree.o"
-	@echo "... Data_Structure/Chairman_Tree.i"
-	@echo "... Data_Structure/Chairman_Tree.s"
+	@echo "... Algorithm/Multiply_LCA.o"
+	@echo "... Algorithm/Multiply_LCA.i"
+	@echo "... Algorithm/Multiply_LCA.s"
 .PHONY : help
 
 
