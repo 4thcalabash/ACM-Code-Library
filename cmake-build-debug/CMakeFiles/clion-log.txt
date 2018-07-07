@@ -1,0 +1,4 @@
+/snap/clion/27/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/calabash_boy/桌面/ACM-Code-Library
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/calabash_boy/桌面/ACM-Code-Library/cmake-build-debug
