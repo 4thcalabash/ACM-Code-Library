@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/clion/27/bin/cmake/bin/cmake
+CMAKE_COMMAND = /snap/clion/32/bin/cmake/bin/cmake
 
 # The command to remove a file.
-RM = /snap/clion/27/bin/cmake/bin/cmake -E remove -f
+RM = /snap/clion/32/bin/cmake/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/calabash_boy/桌面/ACM-Code-Library/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/clion/27/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/clion/32/bin/cmake/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/snap/clion/27/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/snap/clion/32/bin/cmake/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,32 +123,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-Data_Structure/01Trie.o: Data_Structure/01Trie.cpp.o
+String/KMP.o: String/KMP.cpp.o
 
-.PHONY : Data_Structure/01Trie.o
+.PHONY : String/KMP.o
 
 # target to build an object file
-Data_Structure/01Trie.cpp.o:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Data_Structure/01Trie.cpp.o
-.PHONY : Data_Structure/01Trie.cpp.o
+String/KMP.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/KMP.cpp.o
+.PHONY : String/KMP.cpp.o
 
-Data_Structure/01Trie.i: Data_Structure/01Trie.cpp.i
+String/KMP.i: String/KMP.cpp.i
 
-.PHONY : Data_Structure/01Trie.i
+.PHONY : String/KMP.i
 
 # target to preprocess a source file
-Data_Structure/01Trie.cpp.i:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Data_Structure/01Trie.cpp.i
-.PHONY : Data_Structure/01Trie.cpp.i
+String/KMP.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/KMP.cpp.i
+.PHONY : String/KMP.cpp.i
 
-Data_Structure/01Trie.s: Data_Structure/01Trie.cpp.s
+String/KMP.s: String/KMP.cpp.s
 
-.PHONY : Data_Structure/01Trie.s
+.PHONY : String/KMP.s
 
 # target to generate assembly for a file
-Data_Structure/01Trie.cpp.s:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Data_Structure/01Trie.cpp.s
-.PHONY : Data_Structure/01Trie.cpp.s
+String/KMP.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/KMP.cpp.s
+.PHONY : String/KMP.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM-Code-Library"
-	@echo "... Data_Structure/01Trie.o"
-	@echo "... Data_Structure/01Trie.i"
-	@echo "... Data_Structure/01Trie.s"
+	@echo "... String/KMP.o"
+	@echo "... String/KMP.i"
+	@echo "... String/KMP.s"
 .PHONY : help
 
 
