@@ -1,7 +1,11 @@
 //
 // Created by calabash_boy on 18-7-23.
+//最小权值和 二维循环节
+//找到最小 每行公共循环节+每列公共循环节。
+//单调队列找固定大小矩形最小权值和。
 //
 #include<bits/stdc++.h>
+//#define Debug(x) cerr<<#x<<" "<<x<<endl;
 using namespace std;
 const int maxn = 1e6+100;
 
@@ -24,7 +28,8 @@ struct KMP{
     }
     void debug(){
         for (int i=0;i<=len;i++){
-            printf("nxt[%d]=%d\n",i,nxt[i]);
+            printf("[debug] nxt[%d]=%d\n",i,nxt[i]);
+//            Debug(nxt[i]);
         }
     }
     /* 循环周期 形如 acaca 中 ac 是一个合法周期 */
@@ -67,7 +72,6 @@ int main(){
     cin>>n>>m;
     s.resize(n+1);
     maxVal.resize(n+1);
-
     for (int i=1; i<=n;i++){
         cin>>s[i];
     }
@@ -87,12 +91,8 @@ int main(){
         }
         S[m+1]='\0';
         kmper.init(S);
-       // kmper.debug();
-        int len = kmper.len;
-        int now = len;
-        while (now){
-            now = kmper.nxt[now];
-            cnt1[len-now]++;
+        for (int x:kmper.periodic()){
+            cnt1[x]++;
         }
     }
     for (int j=1;j<=m;j++){
@@ -101,12 +101,8 @@ int main(){
         }
         S[n+1]='\0';
         kmper.init(S);
-        //kmper.debug();
-        int len = kmper.len;
-        int now = len;
-        while (now){
-            now = kmper.nxt[now];
-            cnt2[len-now]++;
+        for (int x:kmper.periodic()){
+            cnt2[x]++;
         }
     }
     for (int i=maxn;i>=1;i--){
