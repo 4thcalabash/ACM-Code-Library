@@ -7,6 +7,7 @@
 using namespace std;
 typedef long long LL;
 typedef vector<LL> V;
+
 const int MOD = 1e9+7;
 
 // k 为 m 最高次数 且　a[m] == 1
