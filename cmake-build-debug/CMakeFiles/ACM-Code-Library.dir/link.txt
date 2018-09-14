@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/ACM-Code-Library.dir/Math/BerlekampMassey.cpp.o  -o ACM-Code-Library 
+/usr/bin/c++  -g   CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.o  -o ACM-Code-Library 

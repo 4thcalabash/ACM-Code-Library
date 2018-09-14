@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ACM-Code-Library.dir/Math/BerlekampMassey.cpp.o"
+  "CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.o"
   "ACM-Code-Library.pdb"
   "ACM-Code-Library"
 )

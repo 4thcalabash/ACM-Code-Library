@@ -123,32 +123,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-Math/BerlekampMassey.o: Math/BerlekampMassey.cpp.o
+String/Manacher.o: String/Manacher.cpp.o
 
-.PHONY : Math/BerlekampMassey.o
+.PHONY : String/Manacher.o
 
 # target to build an object file
-Math/BerlekampMassey.cpp.o:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Math/BerlekampMassey.cpp.o
-.PHONY : Math/BerlekampMassey.cpp.o
+String/Manacher.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.o
+.PHONY : String/Manacher.cpp.o
 
-Math/BerlekampMassey.i: Math/BerlekampMassey.cpp.i
+String/Manacher.i: String/Manacher.cpp.i
 
-.PHONY : Math/BerlekampMassey.i
+.PHONY : String/Manacher.i
 
 # target to preprocess a source file
-Math/BerlekampMassey.cpp.i:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Math/BerlekampMassey.cpp.i
-.PHONY : Math/BerlekampMassey.cpp.i
+String/Manacher.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.i
+.PHONY : String/Manacher.cpp.i
 
-Math/BerlekampMassey.s: Math/BerlekampMassey.cpp.s
+String/Manacher.s: String/Manacher.cpp.s
 
-.PHONY : Math/BerlekampMassey.s
+.PHONY : String/Manacher.s
 
 # target to generate assembly for a file
-Math/BerlekampMassey.cpp.s:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Math/BerlekampMassey.cpp.s
-.PHONY : Math/BerlekampMassey.cpp.s
+String/Manacher.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.s
+.PHONY : String/Manacher.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM-Code-Library"
-	@echo "... Math/BerlekampMassey.o"
-	@echo "... Math/BerlekampMassey.i"
-	@echo "... Math/BerlekampMassey.s"
+	@echo "... String/Manacher.o"
+	@echo "... String/Manacher.i"
+	@echo "... String/Manacher.s"
 .PHONY : help
 
 
