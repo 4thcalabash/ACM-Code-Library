@@ -123,32 +123,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-String/Manacher.o: String/Manacher.cpp.o
+Algorithm/DSU_On_Tree(General).o: Algorithm/DSU_On_Tree(General).cpp.o
 
-.PHONY : String/Manacher.o
+.PHONY : Algorithm/DSU_On_Tree(General).o
 
 # target to build an object file
-String/Manacher.cpp.o:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.o
-.PHONY : String/Manacher.cpp.o
+Algorithm/DSU_On_Tree(General).cpp.o:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Algorithm/DSU_On_Tree(General).cpp.o"
+.PHONY : Algorithm/DSU_On_Tree(General).cpp.o
 
-String/Manacher.i: String/Manacher.cpp.i
+Algorithm/DSU_On_Tree(General).i: Algorithm/DSU_On_Tree(General).cpp.i
 
-.PHONY : String/Manacher.i
+.PHONY : Algorithm/DSU_On_Tree(General).i
 
 # target to preprocess a source file
-String/Manacher.cpp.i:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.i
-.PHONY : String/Manacher.cpp.i
+Algorithm/DSU_On_Tree(General).cpp.i:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Algorithm/DSU_On_Tree(General).cpp.i"
+.PHONY : Algorithm/DSU_On_Tree(General).cpp.i
 
-String/Manacher.s: String/Manacher.cpp.s
+Algorithm/DSU_On_Tree(General).s: Algorithm/DSU_On_Tree(General).cpp.s
 
-.PHONY : String/Manacher.s
+.PHONY : Algorithm/DSU_On_Tree(General).s
 
 # target to generate assembly for a file
-String/Manacher.cpp.s:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.s
-.PHONY : String/Manacher.cpp.s
+Algorithm/DSU_On_Tree(General).cpp.s:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Algorithm/DSU_On_Tree(General).cpp.s"
+.PHONY : Algorithm/DSU_On_Tree(General).cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM-Code-Library"
-	@echo "... String/Manacher.o"
-	@echo "... String/Manacher.i"
-	@echo "... String/Manacher.s"
+	@echo "... Algorithm/DSU_On_Tree(General).o"
+	@echo "... Algorithm/DSU_On_Tree(General).i"
+	@echo "... Algorithm/DSU_On_Tree(General).s"
 .PHONY : help
 
 
