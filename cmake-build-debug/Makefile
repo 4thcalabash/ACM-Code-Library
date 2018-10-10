@@ -123,32 +123,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-Algorithm/DSU_On_Tree(General).o: Algorithm/DSU_On_Tree(General).cpp.o
+Graph/Tarjan(SCC).o: Graph/Tarjan(SCC).cpp.o
 
-.PHONY : Algorithm/DSU_On_Tree(General).o
+.PHONY : Graph/Tarjan(SCC).o
 
 # target to build an object file
-Algorithm/DSU_On_Tree(General).cpp.o:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Algorithm/DSU_On_Tree(General).cpp.o"
-.PHONY : Algorithm/DSU_On_Tree(General).cpp.o
+Graph/Tarjan(SCC).cpp.o:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Graph/Tarjan(SCC).cpp.o"
+.PHONY : Graph/Tarjan(SCC).cpp.o
 
-Algorithm/DSU_On_Tree(General).i: Algorithm/DSU_On_Tree(General).cpp.i
+Graph/Tarjan(SCC).i: Graph/Tarjan(SCC).cpp.i
 
-.PHONY : Algorithm/DSU_On_Tree(General).i
+.PHONY : Graph/Tarjan(SCC).i
 
 # target to preprocess a source file
-Algorithm/DSU_On_Tree(General).cpp.i:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Algorithm/DSU_On_Tree(General).cpp.i"
-.PHONY : Algorithm/DSU_On_Tree(General).cpp.i
+Graph/Tarjan(SCC).cpp.i:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Graph/Tarjan(SCC).cpp.i"
+.PHONY : Graph/Tarjan(SCC).cpp.i
 
-Algorithm/DSU_On_Tree(General).s: Algorithm/DSU_On_Tree(General).cpp.s
+Graph/Tarjan(SCC).s: Graph/Tarjan(SCC).cpp.s
 
-.PHONY : Algorithm/DSU_On_Tree(General).s
+.PHONY : Graph/Tarjan(SCC).s
 
 # target to generate assembly for a file
-Algorithm/DSU_On_Tree(General).cpp.s:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Algorithm/DSU_On_Tree(General).cpp.s"
-.PHONY : Algorithm/DSU_On_Tree(General).cpp.s
+Graph/Tarjan(SCC).cpp.s:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Graph/Tarjan(SCC).cpp.s"
+.PHONY : Graph/Tarjan(SCC).cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM-Code-Library"
-	@echo "... Algorithm/DSU_On_Tree(General).o"
-	@echo "... Algorithm/DSU_On_Tree(General).i"
-	@echo "... Algorithm/DSU_On_Tree(General).s"
+	@echo "... Graph/Tarjan(SCC).o"
+	@echo "... Graph/Tarjan(SCC).i"
+	@echo "... Graph/Tarjan(SCC).s"
 .PHONY : help
 
 

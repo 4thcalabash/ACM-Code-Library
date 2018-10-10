@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ACM-Code-Library.dir/Algorithm/DSU_On_Tree(General).cpp.o"
+  "CMakeFiles/ACM-Code-Library.dir/Graph/Tarjan(SCC).cpp.o"
   "ACM-Code-Library.pdb"
   "ACM-Code-Library"
 )

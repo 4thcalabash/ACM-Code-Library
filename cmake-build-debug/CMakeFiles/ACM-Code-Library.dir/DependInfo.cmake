@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/calabash_boy/桌面/ACM-Code-Library/Algorithm/DSU_On_Tree(General).cpp" "/home/calabash_boy/桌面/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/Algorithm/DSU_On_Tree(General).cpp.o"
+  "/home/calabash_boy/桌面/ACM-Code-Library/Graph/Tarjan(SCC).cpp" "/home/calabash_boy/桌面/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/Graph/Tarjan(SCC).cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
