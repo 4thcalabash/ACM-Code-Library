@@ -1,5 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 project(ACM-Code-Library)
-
+add_compile_options(-std=c++11)
+add_compile_options(-O2)
+add_compile_options(-D__LOCAL_DEBUG__)
+add_compile_options(-Wall)
 set(CMAKE_CXX_STANDARD 11)
-add_executable(ACM-Code-Library Graph/Tarjan\(SCC\).cpp)
+add_executable(ACM-Code-Library String/KMP.cpp)

@@ -123,32 +123,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-Graph/Tarjan(SCC).o: Graph/Tarjan(SCC).cpp.o
+String/KMP.o: String/KMP.cpp.o
 
-.PHONY : Graph/Tarjan(SCC).o
+.PHONY : String/KMP.o
 
 # target to build an object file
-Graph/Tarjan(SCC).cpp.o:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Graph/Tarjan(SCC).cpp.o"
-.PHONY : Graph/Tarjan(SCC).cpp.o
+String/KMP.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/KMP.cpp.o
+.PHONY : String/KMP.cpp.o
 
-Graph/Tarjan(SCC).i: Graph/Tarjan(SCC).cpp.i
+String/KMP.i: String/KMP.cpp.i
 
-.PHONY : Graph/Tarjan(SCC).i
+.PHONY : String/KMP.i
 
 # target to preprocess a source file
-Graph/Tarjan(SCC).cpp.i:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Graph/Tarjan(SCC).cpp.i"
-.PHONY : Graph/Tarjan(SCC).cpp.i
+String/KMP.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/KMP.cpp.i
+.PHONY : String/KMP.cpp.i
 
-Graph/Tarjan(SCC).s: Graph/Tarjan(SCC).cpp.s
+String/KMP.s: String/KMP.cpp.s
 
-.PHONY : Graph/Tarjan(SCC).s
+.PHONY : String/KMP.s
 
 # target to generate assembly for a file
-Graph/Tarjan(SCC).cpp.s:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make "CMakeFiles/ACM-Code-Library.dir/Graph/Tarjan(SCC).cpp.s"
-.PHONY : Graph/Tarjan(SCC).cpp.s
+String/KMP.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/KMP.cpp.s
+.PHONY : String/KMP.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM-Code-Library"
-	@echo "... Graph/Tarjan(SCC).o"
-	@echo "... Graph/Tarjan(SCC).i"
-	@echo "... Graph/Tarjan(SCC).s"
+	@echo "... String/KMP.o"
+	@echo "... String/KMP.i"
+	@echo "... String/KMP.s"
 .PHONY : help
 
 

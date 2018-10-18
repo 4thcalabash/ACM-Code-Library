@@ -12,6 +12,7 @@ const int maxn = 1e6+100;
 struct KMP{
     int nxt[maxn];
     int len;
+    char t[maxn];
     void clear(){
         len =0;
         nxt[0] = nxt[1] =0;
@@ -20,11 +21,28 @@ struct KMP{
     /* 注意在ss结尾添加‘\0’ */
     void init(char* ss){
         len = strlen(ss+1);
+        memcpy(t,ss,(len+2)*sizeof(char));
         for (int i=2;i<=len;i++){
             nxt[i] = nxt[i-1];
             while (nxt[i]&&ss[i]!=ss[nxt[i]+1]) nxt[i] = nxt[nxt[i]];
             nxt[i]+=(ss[i]==ss[nxt[i]+1]);
         }
+    }
+    /* 求所有在ss串中的start_pos. 如果first_only设置为true，则只返回第一个位置*/
+    vector<int> match(char *ss,bool first_only = false){
+        int len_s = strlen(ss+1);
+        vector<int> start_pos(0);
+        for (int i=1,j=1;i<=len_s;){
+            while (j!=1 && ss[i] != t[j])j = nxt[j-1]+1;
+            if (ss[i] == t[j]) j++,i++;
+            else i++;
+            if (j == len+1){
+                start_pos.push_back(i-j+1);
+                if (first_only)return start_pos;
+                j = nxt[len]+1;
+            }
+        }
+        return start_pos;
     }
     void debug(){
         for (int i=0;i<=len;i++){
