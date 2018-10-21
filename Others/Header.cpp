@@ -1,6 +1,7 @@
 //
 // Created by calabash_boy on 18-10-18.
 //
+#pragma GCC optimize(3)
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -25,7 +26,7 @@ typedef long double db;
 typedef pair<int,int> pii;
 typedef pair<ll,ll> pll;
 const int inf = 0x3f3f3f3f;
-
+const ll inf_ll = 0x3f3f3f3f3f3f3f3fLL;
 
 
 /************* header ******************/
