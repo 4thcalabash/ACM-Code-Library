@@ -123,32 +123,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-String/KMP.o: String/KMP.cpp.o
+Algorithm/Max_Flow.o: Algorithm/Max_Flow.cpp.o
 
-.PHONY : String/KMP.o
+.PHONY : Algorithm/Max_Flow.o
 
 # target to build an object file
-String/KMP.cpp.o:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/KMP.cpp.o
-.PHONY : String/KMP.cpp.o
+Algorithm/Max_Flow.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.o
+.PHONY : Algorithm/Max_Flow.cpp.o
 
-String/KMP.i: String/KMP.cpp.i
+Algorithm/Max_Flow.i: Algorithm/Max_Flow.cpp.i
 
-.PHONY : String/KMP.i
+.PHONY : Algorithm/Max_Flow.i
 
 # target to preprocess a source file
-String/KMP.cpp.i:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/KMP.cpp.i
-.PHONY : String/KMP.cpp.i
+Algorithm/Max_Flow.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.i
+.PHONY : Algorithm/Max_Flow.cpp.i
 
-String/KMP.s: String/KMP.cpp.s
+Algorithm/Max_Flow.s: Algorithm/Max_Flow.cpp.s
 
-.PHONY : String/KMP.s
+.PHONY : Algorithm/Max_Flow.s
 
 # target to generate assembly for a file
-String/KMP.cpp.s:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/String/KMP.cpp.s
-.PHONY : String/KMP.cpp.s
+Algorithm/Max_Flow.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.s
+.PHONY : Algorithm/Max_Flow.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM-Code-Library"
-	@echo "... String/KMP.o"
-	@echo "... String/KMP.i"
-	@echo "... String/KMP.s"
+	@echo "... Algorithm/Max_Flow.o"
+	@echo "... Algorithm/Max_Flow.i"
+	@echo "... Algorithm/Max_Flow.s"
 .PHONY : help
 
 
