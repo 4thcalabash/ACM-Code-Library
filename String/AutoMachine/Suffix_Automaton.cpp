@@ -17,6 +17,9 @@ struct Suffix_Automaton{
     //extension
     int cntA[maxn*2],A[maxn*2];/*辅助拓扑更新*/
     int num[maxn*2];/*每个节点代表的所有串的出现次数*/
+    Suffix_Automaton(){
+        clear();
+    }
     void clear(){
         last =cnt=1;
         fa[1]=l[1]=0;
