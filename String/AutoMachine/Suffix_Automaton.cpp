@@ -56,7 +56,7 @@ struct Suffix_Automaton{
         memset(cntA,0,sizeof cntA);
         memset(num,0,sizeof num);
         for (int i=1;i<=cnt;i++)cntA[l[i]]++;
-        for (int i=1;i<=n;i++)cntA[i]+=cntA[i-1];
+        for (int i=1;i<=cnt;i++)cntA[i]+=cntA[i-1];
         for (int i=cnt;i>=1;i--)A[cntA[l[i]]--] =i;
         /*更行主串节点*/
         int temp=1;
