@@ -17,6 +17,7 @@ int s[maxn];
  * char* 1-bas
  * sum[i] = s[i]+s[i-1]*Seed+s[i-2]*Seed^2+...+s[1]*Seed^(i-1)
  */
+ULL Prime_Pool[] = {1998585857ul,23333333333ul};
 ULL Seed_Pool[]={911,146527,19260817,91815541};
 ULL Mod_Pool[]={29123,998244353,1000000009,4294967291ull};
 struct Hash_1D{
