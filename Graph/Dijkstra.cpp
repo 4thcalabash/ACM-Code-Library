@@ -3,7 +3,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
-const ll inf = 0x3f3f3f3f3f3f3f3fll;
+const ll inf_ll = 0x3f3f3f3f3f3f3f3fll;
+const int inf = 0x3f3f3f3f;
 const int maxn = 300005;
 struct EDGE{int first,second,third;};
 int n,m,k;
