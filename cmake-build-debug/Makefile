@@ -123,32 +123,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-Algorithm/Max_Flow.o: Algorithm/Max_Flow.cpp.o
+Graph/Dijkstra.o: Graph/Dijkstra.cpp.o
 
-.PHONY : Algorithm/Max_Flow.o
+.PHONY : Graph/Dijkstra.o
 
 # target to build an object file
-Algorithm/Max_Flow.cpp.o:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.o
-.PHONY : Algorithm/Max_Flow.cpp.o
+Graph/Dijkstra.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.o
+.PHONY : Graph/Dijkstra.cpp.o
 
-Algorithm/Max_Flow.i: Algorithm/Max_Flow.cpp.i
+Graph/Dijkstra.i: Graph/Dijkstra.cpp.i
 
-.PHONY : Algorithm/Max_Flow.i
+.PHONY : Graph/Dijkstra.i
 
 # target to preprocess a source file
-Algorithm/Max_Flow.cpp.i:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.i
-.PHONY : Algorithm/Max_Flow.cpp.i
+Graph/Dijkstra.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.i
+.PHONY : Graph/Dijkstra.cpp.i
 
-Algorithm/Max_Flow.s: Algorithm/Max_Flow.cpp.s
+Graph/Dijkstra.s: Graph/Dijkstra.cpp.s
 
-.PHONY : Algorithm/Max_Flow.s
+.PHONY : Graph/Dijkstra.s
 
 # target to generate assembly for a file
-Algorithm/Max_Flow.cpp.s:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.s
-.PHONY : Algorithm/Max_Flow.cpp.s
+Graph/Dijkstra.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.s
+.PHONY : Graph/Dijkstra.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM-Code-Library"
-	@echo "... Algorithm/Max_Flow.o"
-	@echo "... Algorithm/Max_Flow.i"
-	@echo "... Algorithm/Max_Flow.s"
+	@echo "... Graph/Dijkstra.o"
+	@echo "... Graph/Dijkstra.i"
+	@echo "... Graph/Dijkstra.s"
 .PHONY : help
 
 

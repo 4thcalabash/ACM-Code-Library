@@ -57,27 +57,27 @@ include CMakeFiles/ACM-Code-Library.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ACM-Code-Library.dir/flags.make
 
-CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.o: CMakeFiles/ACM-Code-Library.dir/flags.make
-CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.o: ../Algorithm/Max_Flow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/calabash_boy/桌面/ACM-Code-Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.o -c /home/calabash_boy/桌面/ACM-Code-Library/Algorithm/Max_Flow.cpp
+CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.o: CMakeFiles/ACM-Code-Library.dir/flags.make
+CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.o: ../Graph/Dijkstra.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/calabash_boy/桌面/ACM-Code-Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.o -c /home/calabash_boy/桌面/ACM-Code-Library/Graph/Dijkstra.cpp
 
-CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/calabash_boy/桌面/ACM-Code-Library/Algorithm/Max_Flow.cpp > CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.i
+CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/calabash_boy/桌面/ACM-Code-Library/Graph/Dijkstra.cpp > CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.i
 
-CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/calabash_boy/桌面/ACM-Code-Library/Algorithm/Max_Flow.cpp -o CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.s
+CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/calabash_boy/桌面/ACM-Code-Library/Graph/Dijkstra.cpp -o CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.s
 
 # Object files for target ACM-Code-Library
 ACM__Code__Library_OBJECTS = \
-"CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.o"
+"CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.o"
 
 # External object files for target ACM-Code-Library
 ACM__Code__Library_EXTERNAL_OBJECTS =
 
-ACM-Code-Library: CMakeFiles/ACM-Code-Library.dir/Algorithm/Max_Flow.cpp.o
+ACM-Code-Library: CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.o
 ACM-Code-Library: CMakeFiles/ACM-Code-Library.dir/build.make
 ACM-Code-Library: CMakeFiles/ACM-Code-Library.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/calabash_boy/桌面/ACM-Code-Library/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ACM-Code-Library"
