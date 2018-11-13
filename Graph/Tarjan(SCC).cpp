@@ -5,23 +5,31 @@ int m,n,h;int t[maxn];
 int first[maxn*2],nxt[maxn*2],des[maxn*2],tot;
 int dfn[maxn],low[maxn],dft;bool d[maxn];
 int flag[maxn],cnt[maxn],scc;stack<int> stk;
+bool in[maxn];
 inline void add(int x,int y){
     tot++;des[tot] =y;
     nxt[tot] = first[x];first[x] =tot;
 }
 void tar(int node){
     dfn[node] = low[node] = ++dft;
+    in[node] = 1;
     stk.push(node);
     for (int t = first[node];t;t=nxt[t]){
         int v = des[t];
-        if (!dfn[v])tar(v);
-        low[node] = min(low[node],low[v]);
+        if (!dfn[v]){
+            tar(v);
+            low[node] = min(low[node],low[v]);
+        }else if (in[v]){
+            low[node] = min(low[node],dfn[v]);
+        }
+
     }
     if (dfn[node]==low[node]){
         scc++;
         while (true){
             int temp = stk.top();
             flag[temp]=scc;
+            in[temp] = 0;
             cnt[scc]++;stk.pop();
             if (temp==node)break;
         }
