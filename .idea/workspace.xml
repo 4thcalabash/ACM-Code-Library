@@ -13,35 +13,8 @@
   <component name="ChangeListManager">
     <list default="true" id="56a05e1d-1796-4ea0-9f45-104f1f617551" name="Default" comment="add Dijkstra">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Convex_Hull.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Convex_Hull.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/DSU_On_Tree(General).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/DSU_On_Tree(General).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/DSU_On_Tree(Rough).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/DSU_On_Tree(Rough).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/MCMF.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/MCMF.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Max_Flow(Faster).cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Max_Flow.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Max_Flow.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithm/Multiply_LCA.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithm/Multiply_LCA.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structure/01Trie.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structure/01Trie.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structure/AFL(Cactus).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structure/AFL(Cactus).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structure/Cartesian_Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structure/Cartesian_Tree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structure/Chairman_Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structure/Chairman_Tree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structure/KD_Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structure/KD_Tree.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structure/Segment_Tree(Dynamic_Memory).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structure/Segment_Tree(Dynamic_Memory).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_Structure/Segment_Tree.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Data_Structure/Segment_Tree.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Graph/Dijkstra.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Dijkstra.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Tarjan(BCC_Edge).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Tarjan(BCC_Edge).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Tarjan(BCC_Point).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Tarjan(BCC_Point).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Graph/Tarjan(SCC).cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Graph/Tarjan(SCC).cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Math/BerlekampMassey.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Math/BerlekampMassey.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Math/FFT.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Math/FFT.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Math/FWT.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Math/FWT.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Others/Header.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Others/Header.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/AutoMachine/Aho-Corasick_Automaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/AutoMachine/Aho-Corasick_Automaton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/AutoMachine/Palindromic_Automaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/AutoMachine/Palindromic_Automaton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/AutoMachine/Suffix_Automaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/AutoMachine/Suffix_Automaton.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/Hash-1D.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/Hash-1D.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/KMP.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/KMP.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/Manacher.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/Manacher.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/Suffix_Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/Suffix_Array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.o" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,19 +43,19 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="cpp" value="73" />
+          <entry key="cpp" value="74" />
           <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="73" />
+          <entry key="ObjectiveC" value="74" />
           <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="cpp" value="5312" />
+          <entry key="cpp" value="6409" />
           <entry key="md" value="63" />
           <entry key="txt" value="245" />
         </counts>
@@ -90,7 +63,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CMakeLists.txt" value="214" />
-          <entry key="ObjectiveC" value="5312" />
+          <entry key="ObjectiveC" value="6409" />
           <entry key="PLAIN_TEXT" value="94" />
         </counts>
       </usages-collector>
@@ -146,11 +119,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String/Suffix_Array.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+            <state relative-caret-position="391">
+              <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graph/Dijkstra.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="57">
+              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -178,15 +160,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="429">
               <caret line="50" column="1" lean-forward="true" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Math/FFT.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="153" column="22" selection-start-line="153" selection-start-column="22" selection-end-line="153" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -238,7 +211,6 @@
         <option value="$PROJECT_DIR$/Data_Structure/KD_Tree.cpp" />
         <option value="$PROJECT_DIR$/Data_Structure/Segment_Tree(Dynamic_Memory).cpp" />
         <option value="$PROJECT_DIR$/Data_Structure/Segment_Tree.cpp" />
-        <option value="$PROJECT_DIR$/Graph/Dijkstra.cpp" />
         <option value="$PROJECT_DIR$/Graph/Tarjan(BCC_Edge).cpp" />
         <option value="$PROJECT_DIR$/Graph/Tarjan(BCC_Point).cpp" />
         <option value="$PROJECT_DIR$/Graph/Tarjan(SCC).cpp" />
@@ -253,6 +225,7 @@
         <option value="$PROJECT_DIR$/String/KMP.cpp" />
         <option value="$PROJECT_DIR$/String/Manacher.cpp" />
         <option value="$PROJECT_DIR$/String/Suffix_Array.cpp" />
+        <option value="$PROJECT_DIR$/Graph/Dijkstra.cpp" />
       </list>
     </option>
   </component>
@@ -419,7 +392,7 @@
       <workItem from="1541397012555" duration="34000" />
       <workItem from="1541497370135" duration="843000" />
       <workItem from="1541588301155" duration="26000" />
-      <workItem from="1542093134558" duration="7441000" />
+      <workItem from="1542093134558" duration="12991000" />
     </task>
     <task id="LOCAL-00001" summary="add String-Hash-1D">
       <created>1527845769136</created>
@@ -474,7 +447,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="99595000" />
+    <option name="totallyTimeSpent" value="105145000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -489,18 +462,18 @@
     <frame x="0" y="25" width="1920" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12460064" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1773163" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.36129034" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.45698926" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.33010754" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.455914" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32903227" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.6376344" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.12473118" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.2344086" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32258064" />
@@ -703,13 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/Dijkstra.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="457">
-          <caret line="53" column="1" selection-start-line="53" selection-start-column="1" selection-end-line="53" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Graph/Tarjan(BCC_Edge).cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -804,8 +770,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/String/Suffix_Array.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
+        <state relative-caret-position="391">
+          <caret line="85" column="5" lean-forward="true" selection-start-line="85" selection-start-column="5" selection-end-line="85" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/Dijkstra.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
         </state>
       </provider>
     </entry>
