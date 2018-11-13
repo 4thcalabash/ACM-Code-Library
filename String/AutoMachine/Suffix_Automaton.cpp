@@ -1,14 +1,11 @@
-//
 // Created by calabash_boy on 18-6-4.
 //SPOJ substring
 // calc ans_i=长度=i的所有子串，出现次数最多的一种出现了多少次。
-//
 #include<bits/stdc++.h>
 using namespace std;
 const int maxn = 25e4+100;
 char s[maxn];
-int n;
-int ans [maxn];
+int n,ans[maxn];
 /*注意需要按l将节点基数排序来拓扑更新parent树*/
 struct Suffix_Automaton{
     //basic
@@ -17,9 +14,7 @@ struct Suffix_Automaton{
     //extension
     int cntA[maxn*2],A[maxn*2];/*辅助拓扑更新*/
     int num[maxn*2];/*每个节点代表的所有串的出现次数*/
-    Suffix_Automaton(){
-        clear();
-    }
+    Suffix_Automaton(){ clear(); }
     void clear(){
         last =cnt=1;
         fa[1]=l[1]=0;
@@ -35,8 +30,7 @@ struct Suffix_Automaton{
         int p = last;
         int np = ++cnt;
         memset(nxt[cnt],0,sizeof nxt[cnt]);
-        l[np] = l[p]+1;
-        last = np;
+        l[np] = l[p]+1;last = np;
         while (p&&!nxt[p][c])nxt[p][c] = np,p = fa[p];
         if (!p)fa[np]=1;
         else{
@@ -86,7 +80,6 @@ int main(){
     scanf("%s",s);
     /* calc n must before sam.init()*/
     n = strlen(s);
-    sam.clear();
     sam.init(s);
     sam.build();
     for (int i=1;i<=n;i++){

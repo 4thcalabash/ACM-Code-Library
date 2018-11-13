@@ -1,40 +1,32 @@
-//
 // Created by calabash_boy on 18-10-8.
 // 1-rooted tree
 // query vertex with height H in subtree of V
 // whether the letter can form a palindrome
-//
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 typedef pair<int,int> pii;
 #define rep(i,l,r) for (ll i = l,_ = r;i< _;i++)
 #define REP(i,l,r) for (ll i=l,_=r;i<=_;i++)
-/************* header ******************/
 const int maxn = 5e5+100;
 int n,tot,first[maxn],des[maxn],nxt[maxn],m;
 vector<pii> Q[maxn];
 int cnt[maxn][26],Cnt[maxn];
 int sz[maxn],dep[maxn],wson[maxn];
-bool ans[maxn];
+bool ans[maxn],big[maxn];
 char s[maxn];
-bool big[maxn];
 inline void addEdge(int x,int y){
-    tot++;
-    des[tot] = y;
+    tot++;des[tot] = y;
     nxt[tot] = first[x];
     first[x] = tot;
 }
 void get_sz(int node,int depth){
-    dep[node] = depth;
-    sz[node] = 1;
+    dep[node] = depth;sz[node] = 1;
     for (int t = first[node];t;t=nxt[t]){
         int v = des[t];
         get_sz(v,depth+1);
         sz[node] += sz[v];
-        if (sz[v] > sz[wson[node]]){
-            wson[node] = v;
-        }
+        if (sz[v] > sz[wson[node]])wson[node] = v;
     }
 }
 void add(int node,int sign){
@@ -77,10 +69,7 @@ int main(){
         scanf("%d%d",&v,&h);
         Q[v].push_back({h,i});
     }
-    get_sz(1,1);
-    dfs(1,0);
-    rep(i,0,m){
-        printf("%s\n",ans[i]?"Yes":"No");
-    }
+    get_sz(1,1);dfs(1,0);
+    rep(i,0,m)printf("%s\n",ans[i]?"Yes":"No");
     return 0;
 }

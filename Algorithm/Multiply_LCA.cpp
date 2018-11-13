@@ -1,14 +1,11 @@
-//
 // Created by calabash_boy on 18-7-7.
-//
 #include<bits/stdc++.h>
 using namespace std;
 const int maxn = 5e5+100;
 int first[maxn],des[maxn*2],nxt[maxn*2],tot;
 int n,m,s;
 inline int addEdge(int x,int y){
-    tot++;
-    des[tot] = y;
+    tot++;des[tot] = y;
     nxt[tot] = first[x];
     first[x] = tot;
 }
@@ -48,13 +45,11 @@ int main(){
     for (int i=1;i<n;i++){
         int x,y;
         scanf("%d%d",&x,&y);
-        addEdge(x,y);
-        addEdge(y,x);
+        addEdge(x,y);addEdge(y,x);
     }
     Multiply_LCA::dfs(s,0);
     while (m--){
-        int x,y;
-        scanf("%d%d",&x,&y);
+        int x,y;scanf("%d%d",&x,&y);
         printf("%d\n",Multiply_LCA::lca(x,y));
     }
     return 0;

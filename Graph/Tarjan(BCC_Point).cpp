@@ -1,6 +1,4 @@
-//
 // Created by calabash_boy on 18-10-10.
-//
 #include<bits/stdc++.h>
 using namespace std;
 const int maxn = 1e5+100;
@@ -17,8 +15,7 @@ inline void addEdge(int x,int y){
 void input(){
     cin>>n>>m;
     for (int i=0;i<m;i++){
-        int u,v;
-        scanf("%d%d",&u,&v);
+        int u,v;scanf("%d%d",&u,&v);
         addEdge(u,v);addEdge(v,u);
     }
 }
@@ -43,9 +40,7 @@ void dfs(int u,int fa){
                         ok[bcc_cnt] = false;
                     }
                     cnt_e[bcc_cnt]++;
-                    if (tt==t){
-                        break;
-                    }
+                    if (tt==t)break;
                 }
                 if (ok[bcc_cnt]&&temp.size()>1){
                     for (int i=0;i<temp.size();i++){
@@ -70,4 +65,3 @@ int main(){
     solve();
     return 0;
 }
-

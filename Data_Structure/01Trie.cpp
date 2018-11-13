@@ -1,20 +1,17 @@
-//
 // Created by calabash_boy on 18-7-7.
 // max(XorSum(a_l^r))
 #include<bits/stdc++.h>
 using namespace std;
 const int MAX = 1e6+100;
-int bas[35];
-int n,Cas;
+int bas[35],n,Cas;
 const int INF = 2147483645;
 struct Trie{
-    int nxt[MAX<<2][2];  int l[MAX<<2];
-    int cnt;  int ansl,ansr,ansv;
+    int nxt[MAX<<2][2],l[MAX<<2];
+    int cnt,ansl,ansr,ansv;
     void init(){
-        cnt =0;
+        cnt =ansv = 0;
         memset(nxt[0],0,sizeof (nxt[0]));
         memset(l,0x3f3f3f3f,sizeof(l));
-        ansv = 0;
     }
     int create(){
         cnt++;
@@ -26,9 +23,7 @@ struct Trie{
         for (int i=30;i>=0;i--){
             int t = x&bas[i];
             t>>=i;
-            if (!nxt[y][t]){
-                nxt[y][t] = create();
-            }
+            if (!nxt[y][t])nxt[y][t] = create();
             y = nxt[y][t];
         }
         l[y] = min(l[y],id);
@@ -56,12 +51,9 @@ struct Trie{
         }
     }
 }trie;
-
 int main(){
     bas[0] = 1;
-    for (int i1=1;i1<=30;i1++){
-        bas[i1] = bas[i1-1]<<1;
-    }
+    for (int i1=1;i1<=30;i1++)bas[i1] = bas[i1-1]<<1;
     scanf("%d",&Cas);
     for (int i=1;i<=Cas;i++){
         trie.init();  trie.insert(0,0);

@@ -1,7 +1,4 @@
-//
 // Created by calabash_boy on 18-6-18.
-//
-
 #include <bits/stdc++.h>
 using namespace std;
 namespace fft {
@@ -20,13 +17,9 @@ namespace fft {
     type base = 1;
     vector<cp> roots = {{0, 0}, {1, 0}};
     vector<type> rev = {0, 1};
-
     const db PI = acosl(-1.0);
-
     void ensure_base(type nbase) {
-        if (nbase <= base) {
-            return;
-        }
+        if (nbase <= base) return;
         rev.resize(static_cast<unsigned long>(1 << nbase));
         for (type i = 0; i < (1 << nbase); i++) {
             rev[i] = (rev[i >> 1] >> 1) + ((i & 1) << (nbase - 1));
@@ -42,11 +35,8 @@ namespace fft {
             base++;
         }
     }
-
     void fft(vector<cp> &a, type n = -1) {
-        if (n == -1) {
-            n = a.size();
-        }
+        if (n == -1) n = a.size();
         assert((n & (n - 1)) == 0);
         type zeros = __builtin_ctz(n);
         ensure_base(zeros);
@@ -66,9 +56,7 @@ namespace fft {
             }
         }
     }
-
     vector<cp> fa, fb;
-
     vector<type> multiply(vector<type> &a, vector<type> &b) {
         type need = a.size() + b.size() - 1;
         type nbase = 0;
@@ -99,7 +87,6 @@ namespace fft {
         }
         return res;
     }
-
     vector<type> multiply_mod(vector<type> &a, vector<type> &b, type m, type eq = 0) {
         type need = a.size() + b.size() - 1;
         type nbase = 0;
@@ -129,10 +116,8 @@ namespace fft {
             fft(fb, sz);
         }
         db ratio = 0.25 / sz;
-        cp r2(0, -1);
-        cp r3(ratio, 0);
-        cp r4(0, -ratio);
-        cp r5(0, 1);
+        cp r2(0, -1);cp r3(ratio, 0);
+        cp r4(0, -ratio);cp r5(0, 1);
         for (type i = 0; i <= (sz >> 1); i++) {
             type j = (sz - i) & (sz - 1);
             cp a1 = (fa[i] + conj(fa[j]));
@@ -150,8 +135,7 @@ namespace fft {
             fa[j] = a1 * b1 + a2 * b2 * r5;
             fb[j] = a1 * b2 + a2 * b1;
         }
-        fft(fa, sz);
-        fft(fb, sz);
+        fft(fa, sz);fft(fb, sz);
         vector<type> res(static_cast<unsigned long>(need));
         for (type i = 0; i < need; i++) {
             long long aa = fa[i].x + 0.5;
@@ -161,41 +145,31 @@ namespace fft {
         }
         return res;
     }
-
     vector<type> square_mod(vector<type> &a, type m) {
         return multiply_mod(a, a, m, 1);
     }
 };
 const int maxn = 2e5+100;
 int n,x;
-int a[maxn],sum[maxn];
-int cnt[maxn];
+int a[maxn],sum[maxn],cnt[maxn];
 vector<long long > A,B,C;
 //example:
 //f[i] = number of subsequences whose occurence of 1 is i.
 //f[i] = \sum_{cnt[j]*cnt[j-i]}
 int main(){
-    scanf("%d%d",&n,&x);
-    cnt[0]=1;
+    scanf("%d%d",&n,&x);cnt[0]=1;
     for (int i=1;i<=n;i++){
         scanf("%d",a+i);
         sum[i] =sum[i-1];
-        if(a[i]<x){
-            sum[i]++;
-        }
+        if(a[i]<x)sum[i]++;
         cnt[sum[i]]++;
     }
-    A.resize(n*2+2);
-    B.resize(n*2+2);
+    A.resize(n*2+2);B.resize(n*2+2);
     for (int i=0;i<=n;i++){
-        A[n+i] = cnt[i];
-        B[n-i] = cnt[i];
+        A[n+i] = cnt[i];B[n-i] = cnt[i];
     }
     C = fft::multiply(A,B);
-    C[n*2]-=n+1;
-    C[n*2]>>=1;
-    for (int i=n*2;i<=n*3;i++){
-        cout<<C[i]<<" ";
-    }
+    C[n*2]-=n+1;C[n*2]>>=1;
+    for (int i=n*2;i<=n*3;i++){ cout<<C[i]<<" "; }
     return 0;
 }

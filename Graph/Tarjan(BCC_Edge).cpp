@@ -1,6 +1,4 @@
-//
 // Created by calabash_boy on 18-10-10.
-//
 #include<bits/stdc++.h>
 using namespace std;
 const int maxn = 1e5+100;
@@ -16,8 +14,7 @@ inline void addEdge(int x,int y){
 void input(){
     cin>>n>>m;
     for (int i=0;i<m;i++){
-        int u,v;
-        scanf("%d%d",&u,&v);
+        int u,v;scanf("%d%d",&u,&v);
         addEdge(u,v);addEdge(v,u);
     }
 }
@@ -79,4 +76,3 @@ int main(){
     solve();
     return 0;
 }
-

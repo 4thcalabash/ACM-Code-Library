@@ -1,7 +1,4 @@
-//
 // Created by calabash_boy on 18-8-17.
-//
-
 //UOJ 310
 #include<bits/stdc++.h>
 using namespace std;
@@ -17,8 +14,7 @@ void FWT(int *a,int n,int r){
     for (int i=1;i<n;i<<=1){
         for (int j=0;j<n;j+=(i<<1)){
             for (int k =0;k<i;k++){
-                int x = a[j+k];
-                int y = a[j+k+i];
+                int x = a[j+k];int y = a[j+k+i];
                 if (r){
                     a[j+k] = (x+y)%MOD;
                     a[j+k+i] = (x-y+MOD)%MOD;
@@ -38,8 +34,7 @@ LL pow_mod(LL x,LL y){
 int main(){
     scanf("%d",&n);
     for (int i=1;i<=n;i++){
-        int x;
-        scanf("%d",&x);
+        int x;scanf("%d",&x);
         a[x]++;
     }
     FWT(a,N,1);
@@ -48,9 +43,7 @@ int main(){
         int cnt3 = 1LL*(a[i]+n)%MOD*INV4%MOD;
         int cnt1 = n-cnt3;
         a[i] = pow_mod(3,cnt3);
-        if (cnt1&1){
-            a[i] = MOD-a[i];
-        }
+        if (cnt1&1)a[i] = MOD-a[i];
     }
     FWT(a,N,0);
     printf("%d\n",(a[0]+MOD-1)%MOD);

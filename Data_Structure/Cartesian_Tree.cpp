@@ -1,23 +1,15 @@
-//
 // Created by calabash_boy on 18-7-24.
 //他的名字是笛卡尔树。
-//
-
 #include<bits/stdc++.h>
 using namespace std;
 #define OPENSTACK
-
 const int maxn = 1e6+100;
 const int mod = 1e9+7;
 typedef long long LL;
-int stk[maxn],top;
-int l[maxn],r[maxn],rt;
-int n;
+int stk[maxn],top,sz[maxn];
+int l[maxn],r[maxn],rt,n;
 pair<int,int> a[maxn];
-LL inv[maxn];
-LL fac[maxn];
-LL inv_fac[maxn];
-int sz[maxn];
+LL inv[maxn],fac[maxn],inv_fac[maxn];
 bool vis[maxn];
 /* l 左儿子 r 右儿子 rt根*/
 void build(){
@@ -28,8 +20,7 @@ void build(){
         while (k&&a[i]<a[stk[k-1]])k--;
         if (k) r[stk[k-1]] = i;
         if (k<top) l[i] = stk[k];
-        stk[k++] =i;
-        top = k;
+        stk[k++] =i;top = k;
     }
     for (int i=1;i<=n;i++) vis[l[i]] = vis[r[i]] =1;
     for (int i=1;i<=n;i++){
@@ -52,8 +43,7 @@ inline LL C(int n,int m){
     return fac[n]*inv_fac[m]%mod*inv_fac[n-m]%mod;
 }
 int dfs(int u){
-    sz[u]=1;
-    int ans =1;
+    sz[u]=1;int ans =1;
     if (l[u])ans=1LL*ans*dfs(l[u])%mod;
     if (r[u])ans = 1LL*ans*dfs(r[u])%mod;
     sz[u]+=sz[l[u]]+sz[r[u]];
@@ -66,13 +56,11 @@ void Main(){
     for (int i=maxn-2;i>=0;i--){
         inv_fac[i] = inv_fac[i+1]*(i+1)%mod;
     }
-    int T;
-    scanf("%d",&T);
+    int T;scanf("%d",&T);
     while (T--) {
         scanf("%d", &n);
         for (int i = 1; i <= n; i++) {
-            int x;
-            scanf("%d", &x);
+            int x;scanf("%d", &x);
             a[i] = {-x, i};
         }
         build();
@@ -89,12 +77,10 @@ int main(){
     __asm__("movl %0, %%esp\n" :: "r"(p));
 #endif
 #endif
-
     Main();
 #ifdef OPENSTACK
     exit(0);
 #else
     return 0;
 #endif
-
 }

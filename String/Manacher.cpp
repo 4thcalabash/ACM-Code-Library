@@ -1,13 +1,9 @@
-//
 // Created by calabash_boy on 18-9-14.
-//
-
 #include<bits/stdc++.h>
 using namespace std;
 const int MAX = 2e5+10000;
 char ch[MAX];
-int lc[MAX];
-int n;
+int lc[MAX],n;
 void Manacher(){
     lc[1]=1;  int k=1;
     for (int i=2;i<=n;i++){
@@ -30,12 +26,10 @@ int main(){
     n = strlen(ch+1);
     ch[n*2+1] = '#';
     for (int i=n;i>=1;i--){
-        ch[i*2] = ch[i];
-        ch[i*2-1] = '#';
+        ch[i*2] = ch[i];ch[i*2-1] = '#';
     }
     n = n*2 +1;
-    ch[0] = 'z'+1;
-    ch[n+1] = '\0';
+    ch[0] = 'z'+1;ch[n+1] = '\0';
     Manacher();
     debug();
     return 0;

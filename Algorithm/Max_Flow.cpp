@@ -1,22 +1,16 @@
-//
 // Created by calabash_boy on 18-9-14.
-//
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long ll;
 const int maxn = 11000;
 const int maxm = 110000;
 const int INF = 0x3f3f3f3f;
-
 struct Max_Flow{
     int first[maxn],nxt[maxm*2],des[maxm*2],c[maxm*2],tot;
     int dep[maxn];int ss,tt;
-    Max_Flow(){
-        clear();
-    }
+    Max_Flow(){ clear(); }
     void clear(){
-        memset(first,-1,sizeof first);
-        tot =-1;
+        memset(first,-1,sizeof first);tot =-1;
     }
     inline void addEdge(int u,int v,int w){
         tot++;
@@ -47,8 +41,7 @@ struct Max_Flow{
             if (dep[v]==dep[node]+1&&cx){
                 int x = min(cx,now-res);
                 x = dfs(v,x);
-                res +=x;
-                c[t] -= x;c[t^1]+=x;
+                res+=x;c[t]-=x;c[t^1]+=x;
             }
         }
         if (!res) dep[node] = -2;
@@ -57,8 +50,7 @@ struct Max_Flow{
     // tuple<from,to,flow>
     void init(vector<tuple<int,int,int> > Edge){
         for (auto tp : Edge){
-            int u,v,w;
-            tie(u,v,w) = tp;
+            int u,v,w;tie(u,v,w) = tp;
             addEdge(u,v,w);addEdge(v,u,0);
         }
     }
@@ -66,9 +58,7 @@ struct Max_Flow{
     ll max_flow(int s,int t){
         ss = s;tt = t;
         ll res =0,del =0;
-        while (bfs()){
-            while (del = dfs(ss,INF)){res += del;}
-        }
+        while (bfs()){while (del = dfs(ss,INF)){res += del;}}
         return res;
     }
 }net;

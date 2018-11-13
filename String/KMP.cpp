@@ -1,21 +1,15 @@
-//
 // Created by calabash_boy on 18-7-23.
 //最小权值和 二维循环节
 //找到最小 每行公共循环节+每列公共循环节。
 //单调队列找固定大小矩形最小权值和。
-//
 #include<bits/stdc++.h>
-//#define Debug(x) cerr<<#x<<" "<<x<<endl;
 using namespace std;
 const int maxn = 1e6+100;
-
 struct KMP{
-    int nxt[maxn];
-    int len;
+    int nxt[maxn];int len;
     char t[maxn];
     void clear(){
-        len =0;
-        nxt[0] = nxt[1] =0;
+        len =nxt[0] = nxt[1] =0;
     }
     /* 1-bas */
     /* 注意在ss结尾添加‘\0’ */
@@ -47,7 +41,6 @@ struct KMP{
     void debug(){
         for (int i=0;i<=len;i++){
             printf("[debug] nxt[%d]=%d\n",i,nxt[i]);
-//            Debug(nxt[i]);
         }
     }
     /* 循环周期 形如 acaca 中 ac 是一个合法周期 */
@@ -64,9 +57,7 @@ struct KMP{
     vector<int> periodic_loop(){
         vector<int>ret ;
         for (int x :periodic()){
-            if (len%x==0){
-                ret.push_back(x);
-            }
+            if (len%x==0)ret.push_back(x);
         }
         return ret;
     }
@@ -75,18 +66,11 @@ struct KMP{
     }
 }kmper;
 vector<string> s;
-vector<vector<int> > a;
-vector<vector<int> >maxVal;
-int cnt1[maxn],cnt2[maxn];
-int n,m;
+vector<vector<int> > a,maxVal;
+int cnt1[maxn],cnt2[maxn],n,m;
 char S[maxn];
 pair<int,int> pq[maxn];int l,r;
 int main(){
-#ifdef ONLINE_JUDGE
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-#endif
     cin>>n>>m;
     s.resize(n+1);
     maxVal.resize(n+1);
@@ -101,8 +85,7 @@ int main(){
             cin>>a[i][j];
         }
     }
-    int p,q;
-    kmper.clear();
+    int p,q;kmper.clear();
     for (int i=1;i<=n;i++){
         for (int j=1;j<=m;j++){
             S[j] = s[i][j-1];
@@ -124,12 +107,8 @@ int main(){
         }
     }
     for (int i=maxn;i>=1;i--){
-        if (cnt1[i]==n){
-            q = i;
-        }
-        if (cnt2[i]==m){
-            p=i;
-        }
+        if (cnt1[i]==n){ q = i; }
+        if (cnt2[i]==m){ p=i; }
     }
     for (int i=1;i<=n;i++){
         l = 0,r=0;

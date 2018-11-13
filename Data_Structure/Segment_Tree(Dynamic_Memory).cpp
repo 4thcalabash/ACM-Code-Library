@@ -1,6 +1,4 @@
-//
 // Created by calabash_boy on 18-10-1.
-//
 // CF 1046A
 // give n tuple(x,r,p) and k<=20 , calc unordered pair(i,j)
 // xi - ri <= xj <= xi + ri
@@ -10,9 +8,7 @@
 using namespace std;
 const int maxn = 1e5+100;
 typedef long long ll;
-struct Node{
-    int L,R,val;
-}tree[maxn*200];
+struct Node{ int L,R,val; }tree[maxn*200];
 int cnt;
 struct Segment_Tree{
     int root = 0;
@@ -21,9 +17,7 @@ struct Segment_Tree{
         tree[cnt].val = tree[cnt].L = tree[cnt].R = 0;
         return cnt;
     }
-    Segment_Tree(){
-        root = newnode();
-    }
+    Segment_Tree(){ root = newnode(); }
     void add(int x,int l,int r,int Pos,int delta){
         tree[x].val += delta;
         if (l == r)return;
@@ -57,8 +51,7 @@ int main(){
     vector<tuple<int,int,int> > a(n);
     vector<int> nums;
     for (int i=0;i<n;i++){
-        int x,r,q;
-        scanf("%d%d%d",&x,&r,&q);
+        int x,r,q;scanf("%d%d%d",&x,&r,&q);
         a[i] = make_tuple(x,r,q);
         nums.push_back(x);
         nums.push_back(x+r);
@@ -75,10 +68,8 @@ int main(){
     });
     ll ans =0;
     for (int i=0;i<n;i++){
-        int x,r,q;
-        tie(x,r,q) = a[i];
-        int L = id[x-r];
-        int R = id[x+r];
+        int x,r,q;tie(x,r,q) = a[i];
+        int L = id[x-r],R = id[x+r];
         for (int j=q-k;j<=q+k;j++){
             if (mp.find(j) == mp.end())continue;
             Segment_Tree & tree = mp[j];

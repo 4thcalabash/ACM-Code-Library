@@ -1,7 +1,4 @@
-//
 // Created by calabash_boy on 18-9-14.
-//
-
 #include<bits/stdc++.h>
 using namespace std;
 typedef long long LL;

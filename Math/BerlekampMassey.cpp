@@ -1,15 +1,11 @@
-//
 // Created by calabash_boy on 18-8-16.
-//
 #include<bits/stdc++.h>
 #define FOR(i,l,r) for (int i = (l);i<(r);i++)
 #define FORD(i,r,l) for (int i= (r);i>(l);i--)
 using namespace std;
 typedef long long LL;
 typedef vector<LL> V;
-
 const int MOD = 1e9+7;
-
 // k 为 m 最高次数 且　a[m] == 1
 namespace BerlekampMassey {
     inline void up(LL& a, LL b) { (a += b) %= MOD; }
@@ -77,12 +73,9 @@ namespace BerlekampMassey {
 }
 void BerlekampMassey::sample(){
     V x(6);
-    x[0] = 1;
-    x[1] = 2;
-    x[2] = 21;
-    x[3] = 212;
-    x[4] = 2141;
-    x[5] = 21622;
+    x[0] = 1;x[1] = 2;
+    x[2] = 21;x[3] = 212;
+    x[4] = 2141;x[5] = 21622;
     V a = BerlekampMassey::BM(x);
     cout<<"a[n] = ";
     for (int i = 0;i<a.size()-2;i++){

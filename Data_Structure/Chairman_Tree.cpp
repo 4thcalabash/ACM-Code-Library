@@ -1,4 +1,3 @@
-//
 // Created by calabash_boy on 18-7-7.
 // query_kth_element
 #include<bits/stdc++.h>
@@ -62,8 +61,7 @@ int main() {
             root[i1] = tree.update(root[i1-1],1,n,pos[i1],1);
         }
         while (m--){
-            int l,r,k;
-            scanf("%d%d%d",&l,&r,&k);
+            int l,r,k;scanf("%d%d%d",&l,&r,&k);
             printf("%d\n",tree.query_kth(root[l-1],root[r],1,n,k));
         }
     }

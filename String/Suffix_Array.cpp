@@ -1,6 +1,4 @@
-//
 // Created by calabash_boy on 18-7-3.
-//
 #include<bits/stdc++.h>
 #define rank rkrk
 using namespace std;
@@ -57,8 +55,7 @@ namespace Suffix_Array{
     }
     //special
     int GetK(int k,int n){
-        int ans=0;
-        k--;
+        int ans=0;k--;
         if(k==0){
             for(int i=1;i<=n;++i)   ans=ans+(n-sa[i]+1-height[i]);
             return ans;
@@ -89,4 +86,3 @@ int main(){
     }
     return 0;
 }
-

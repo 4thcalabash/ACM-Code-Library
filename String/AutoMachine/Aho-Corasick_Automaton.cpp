@@ -1,4 +1,3 @@
-//
 // Created by calabash_boy on 18-6-5.
 // HDU 6138
 //给定若干字典串。
@@ -27,9 +26,7 @@ struct Aho_Corasick_Automaton{
         int now = root;
         while (*s){
             int id = *s-'a';
-            if(!nxt[now][id]){
-                nxt[now][id] = newnode();
-            }
+            if(!nxt[now][id])nxt[now][id] = newnode();
             len[nxt[now][id]] = len[now]+1;
             now = nxt[now][id];
         }
@@ -38,17 +35,14 @@ struct Aho_Corasick_Automaton{
         int now = root;
         for (int i=0;i<str.size();i++){
             int id = str[i]-'a';
-            if(!nxt[now][id]){
-                nxt[now][id] = newnode();
-            }
+            if(!nxt[now][id])nxt[now][id] = newnode();
             len[nxt[now][id]] = len[now]+1;
             now = nxt[now][id];
         }
     }
     void build(){
         fail[root] = root;
-        queue<int>Q;
-        Q.push(root);
+        queue<int>Q;Q.push(root);
         while (!Q.empty()){
             int head = Q.front();Q.pop();
             for (int i=0;i<26;i++){
@@ -70,8 +64,7 @@ void Aho_Corasick_Automaton::search(string str,int QID) {
     int now = root;
     for (int i=0;i<str.size();i++){
         int id = str[i]-'a';
-        now = nxt[now][id];
-        int temp = now;
+        now = nxt[now][id];int temp = now;
         while (temp!=root&&flag[temp]!=QID){
             flag[temp] = QID;
             temp = fail[temp];
@@ -79,8 +72,7 @@ void Aho_Corasick_Automaton::search(string str,int QID) {
     }
 }
 int Aho_Corasick_Automaton::query(string str, int QID) {
-    int ans =0;
-    int now = root;
+    int ans =0;int now = root;
     for (int i=0;i<str.size();i++){
         int id = str[i]-'a';
         now = nxt[now][id];
@@ -96,12 +88,8 @@ int Aho_Corasick_Automaton::query(string str, int QID) {
     return ans;
 }
 string a[maxn];
-int m,n;
-int qid;
+int m,n,qid;
 int main(){
-    ios::sync_with_stdio(false);
-    cin.tie(0);
-    cout.tie(0);
     int T;
     cin>>T;
     while (T--){
@@ -114,9 +102,8 @@ int main(){
         acam.build();
         cin>>m;
         for (int i=1;i<=m;i++){
-            int x,y;
+            int x,y;cin>>x>>y;
             qid++;
-            cin>>x>>y;
             acam.search(a[x],qid);
             int ans = acam.query(a[y],qid);
             cout<<ans<<endl;

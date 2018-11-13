@@ -1,16 +1,12 @@
-//
 // Created by calabash_boy on 18-9-14.
-//
 // circle-square-tree Maximum independent set
 #include<bits/stdc++.h>
 using namespace std;
 const int maxn = 1e5+100;
 vector<int> E1[maxn],ET[maxn];
-int m,n,N;
+int m,n,N,fa[maxn],dp[maxn][2];
 int len[maxn],dfn[maxn],dfs_clock;
 bool inCircle[maxn];
-int fa[maxn];
-int dp[maxn][2];
 int dp2[maxn][2];
 inline void addEdge1(int x,int y){
     E1[x].push_back(y);
@@ -19,13 +15,10 @@ inline void addEdgeT(int x,int y){
     ET[x].push_back(y);
 }
 void input(){
-    cin>>n>>m;
-    N =n;
+    cin>>n>>m;N =n;
     for (int i=0;i<m;i++){
-        int u,v;
-        cin>>u>>v;
-        addEdge1(u,v);
-        addEdge1(v,u);
+        int u,v;cin>>u>>v;
+        addEdge1(u,v);addEdge1(v,u);
     }
 }
 void tarjan(int u){
@@ -34,8 +27,7 @@ void tarjan(int u){
         int v = E1[u][i];
         if (v==fa[u])continue;
         if (!dfn[v]){
-            fa[v] = u;
-            tarjan(v);
+            fa[v] = u;tarjan(v);
         }else if (dfn[v]<dfn[u]){
             n++;
             len[n] = dfn[u]-dfn[v]+1;
@@ -78,8 +70,7 @@ void work(int x){
     dp[x][1] = max(dp[x][1],max(dp2[0][0],dp2[0][1]));
 }
 void dfs(int u){
-    dp[u][0]=0;
-    dp[u][1]=1;
+    dp[u][0]=0;dp[u][1]=1;
     if (u>N)dp[u][0]=0;
     for (int i=0;i<ET[u].size();i++){
         int v = ET[u][i];
@@ -89,9 +80,7 @@ void dfs(int u){
             dp[u][1]+=dp[v][0];
         }
     }
-    if (u>N){
-        work(u);
-    }
+    if (u>N)work(u);
 }
 int main(){
     input();

@@ -1,6 +1,4 @@
-//
 // Created by calabash_boy on 18-9-14.
-//
 // interval modify & interval query
 #include<stdio.h>
 using namespace std;
@@ -46,8 +44,7 @@ struct Seg_Tree{
         return query_Sum(x<<1,l,mid,L,R)+query_Sum(x<<1|1,mid+1,r,L,R);
     }
 }tree;
-char opt[5];
-int m,n;
+char opt[5];int m,n;
 int main(){
     scanf("%d%d",&n,&m);
     for (int i=1;i<=n;i++){

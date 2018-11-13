@@ -1,8 +1,6 @@
-//
 // Created by calabash_boy on 18-6-4.
 // BZOJ 3676
 // calc max(len(t)*cnt(t)) t为s回文子串，cnt(t)=t出现次数
-//
 #include<bits/stdc++.h>
 using namespace std;
 const int maxn = 3e5+100;

@@ -1,19 +1,13 @@
-//
+
 // Created by calabash_boy on 18-9-14.
-//
-#include<cstdio>
-#include<iostream>
-#include<cstring>
-#include<algorithm>
-#include<queue>
+#include <bits/stdc++.h>
 using namespace std;
 const int maxn = 2000+50;
 const int maxm = 20000+50;
 const int INF = 0x3f3f3f3f;
-int m,n;
+int m,n,ss,tt,dis[maxn],pre[maxn];
 int first[maxn],from[maxm*2],des[maxm*2],nxt[maxm*2],cost[maxm*2],flow[maxm*2],tot;
-int dis[maxn],pre[maxn];
-bool in[maxn];int ss,tt;
+bool in[maxn];
 inline void addE(int x,int y,int f,int c){
     tot++;
     from[tot] =x;des[tot] =y;
@@ -42,12 +36,9 @@ bool spfa(){
     queue<int> Q;Q.push(ss);
     while (!Q.empty()){
         int q = Q.front();
-        Q.pop();
-        in[q] = 0;
+        Q.pop();in[q] = 0;
         for (int t = first[q];t!=-1;t = nxt[t]){
-            int v = des[t];
-            int len = cost[t];
-            int cx = flow[t];
+            int v=des[t],len=cost[t],cx=flow[t];
             if (cx&&dis[v]>dis[q]+len){
                 dis[v] = dis[q]+len;
                 pre[v] = t;
@@ -63,8 +54,7 @@ void solve(){
     ss =0;tt=n;
     int totflow =0,totcost =0,nowflow =0,nowcost =0;
     while (spfa()){
-        nowcost =0;
-        nowflow = INF;
+        nowcost =0;nowflow = INF;
         int now =pre[tt];
         while (now!=-1){
             nowflow = min(nowflow,flow[now]);
@@ -88,4 +78,3 @@ int main(){
     solve();
     return 0;
 }
-

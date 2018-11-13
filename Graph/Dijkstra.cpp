@@ -1,6 +1,4 @@
-//
 // Created by calabash_boy on 18-11-13.
-//
 #include <bits/stdc++.h>
 using namespace std;
 typedef long long ll;
@@ -21,16 +19,13 @@ namespace Dijkstra{
         }
     };
     void init(vector<pair<int,int> >*Edgee,int n,int st){
-        Edge = Edgee;
-        S =st;
-        N = n;
+        Edge = Edgee;S =st;N = n;
     }
     void work(){
         memset(dis,inf,sizeof dis);
         memset(used,0,sizeof used);
-        dis[S] = 0;
         priority_queue<Node> pq;
-        pq.push({S,0});
+        dis[S] = 0;pq.push({S,0});
         while (!pq.empty()){
             Node head = pq.top();pq.pop();
             if (used[head.x])continue;
@@ -47,12 +42,10 @@ namespace Dijkstra{
 int main(){
     scanf("%d%d%d",&n,&m,&k);
     for (int i=0;i<m;i++){
-        int x,y,w;
-        scanf("%d%d%d",&x,&y,&w);
+        int x,y,w;scanf("%d%d%d",&x,&y,&w);
         E[x].push_back({y,w});
     }
-    Dijkstra::init(E,n,k);
-    Dijkstra::work();
+    Dijkstra::init(E,n,k);Dijkstra::work();
     for (int i=1;i<=n;i++){
         printf("%lld ",Dijkstra::dis[i]);
     }
