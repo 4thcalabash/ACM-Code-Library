@@ -122,32 +122,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-Graph/Tree/Heavy_Light_Decomposition.obj: Graph/Tree/Heavy_Light_Decomposition.cpp.obj
+String/Manacher.obj: String/Manacher.cpp.obj
 
-.PHONY : Graph/Tree/Heavy_Light_Decomposition.obj
+.PHONY : String/Manacher.obj
 
 # target to build an object file
-Graph/Tree/Heavy_Light_Decomposition.cpp.obj:
-	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.obj
-.PHONY : Graph/Tree/Heavy_Light_Decomposition.cpp.obj
+String/Manacher.cpp.obj:
+	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj
+.PHONY : String/Manacher.cpp.obj
 
-Graph/Tree/Heavy_Light_Decomposition.i: Graph/Tree/Heavy_Light_Decomposition.cpp.i
+String/Manacher.i: String/Manacher.cpp.i
 
-.PHONY : Graph/Tree/Heavy_Light_Decomposition.i
+.PHONY : String/Manacher.i
 
 # target to preprocess a source file
-Graph/Tree/Heavy_Light_Decomposition.cpp.i:
-	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.i
-.PHONY : Graph/Tree/Heavy_Light_Decomposition.cpp.i
+String/Manacher.cpp.i:
+	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.i
+.PHONY : String/Manacher.cpp.i
 
-Graph/Tree/Heavy_Light_Decomposition.s: Graph/Tree/Heavy_Light_Decomposition.cpp.s
+String/Manacher.s: String/Manacher.cpp.s
 
-.PHONY : Graph/Tree/Heavy_Light_Decomposition.s
+.PHONY : String/Manacher.s
 
 # target to generate assembly for a file
-Graph/Tree/Heavy_Light_Decomposition.cpp.s:
-	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.s
-.PHONY : Graph/Tree/Heavy_Light_Decomposition.cpp.s
+String/Manacher.cpp.s:
+	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.s
+.PHONY : String/Manacher.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... ACM-Code-Library
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Graph/Tree/Heavy_Light_Decomposition.obj
-	@echo ... Graph/Tree/Heavy_Light_Decomposition.i
-	@echo ... Graph/Tree/Heavy_Light_Decomposition.s
+	@echo ... String/Manacher.obj
+	@echo ... String/Manacher.i
+	@echo ... String/Manacher.s
 .PHONY : help
 
 

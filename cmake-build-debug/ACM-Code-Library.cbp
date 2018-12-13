@@ -80,7 +80,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/workspace/ACM-Code-Library/Graph/Tree/Heavy_Light_Decomposition.cpp">
+		<Unit filename="D:/workspace/ACM-Code-Library/String/Manacher.cpp">
 			<Option target="ACM-Code-Library"/>
 		</Unit>
 		<Unit filename="D:/workspace/ACM-Code-Library/CMakeLists.txt">

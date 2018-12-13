@@ -56,27 +56,27 @@ include CMakeFiles/ACM-Code-Library.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ACM-Code-Library.dir/flags.make
 
-CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.obj: CMakeFiles/ACM-Code-Library.dir/flags.make
-CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.obj: ../Graph/Tree/Heavy_Light_Decomposition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\ACM-Code-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ACM-Code-Library.dir\Graph\Tree\Heavy_Light_Decomposition.cpp.obj -c D:\workspace\ACM-Code-Library\Graph\Tree\Heavy_Light_Decomposition.cpp
+CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj: CMakeFiles/ACM-Code-Library.dir/flags.make
+CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj: ../String/Manacher.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\ACM-Code-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ACM-Code-Library.dir\String\Manacher.cpp.obj -c D:\workspace\ACM-Code-Library\String\Manacher.cpp
 
-CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\workspace\ACM-Code-Library\Graph\Tree\Heavy_Light_Decomposition.cpp > CMakeFiles\ACM-Code-Library.dir\Graph\Tree\Heavy_Light_Decomposition.cpp.i
+CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\workspace\ACM-Code-Library\String\Manacher.cpp > CMakeFiles\ACM-Code-Library.dir\String\Manacher.cpp.i
 
-CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\workspace\ACM-Code-Library\Graph\Tree\Heavy_Light_Decomposition.cpp -o CMakeFiles\ACM-Code-Library.dir\Graph\Tree\Heavy_Light_Decomposition.cpp.s
+CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\workspace\ACM-Code-Library\String\Manacher.cpp -o CMakeFiles\ACM-Code-Library.dir\String\Manacher.cpp.s
 
 # Object files for target ACM-Code-Library
 ACM__Code__Library_OBJECTS = \
-"CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.obj"
+"CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj"
 
 # External object files for target ACM-Code-Library
 ACM__Code__Library_EXTERNAL_OBJECTS =
 
-ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.obj
+ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj
 ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/build.make
 ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/linklibs.rsp
 ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/objects1.rsp

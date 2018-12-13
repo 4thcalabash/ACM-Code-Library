@@ -49,8 +49,7 @@ struct Palindromic_AutoMaton{
     }
     void init(char* ss){
         while (*ss){
-            add(*ss-'a');
-            ss++;
+            add(*ss-'a');ss++;
         }
     }
     void init(string str){

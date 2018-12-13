@@ -32,7 +32,7 @@ struct Hash_1D{
     }
     /*random_shuffle 离散化id，防止kill_hash*/
     void indexInit(int seedIndex,int modIndex){
-        for (int i=1;i<sigma;i++){
+        for (int i=1;i<n;i++){
             perm[i]=i;
         }
         random_shuffle(perm+1,perm+1+sigma);

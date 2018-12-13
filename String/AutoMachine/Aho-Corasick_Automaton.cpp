@@ -90,17 +90,14 @@ int Aho_Corasick_Automaton::query(string str, int QID) {
 string a[maxn];
 int m,n,qid;
 int main(){
-    int T;
-    cin>>T;
+    int T;cin>>T;
     while (T--){
-        acam.clear();
-        cin>>n;
+        acam.clear();cin>>n;
         for (int i=1;i<=n;i++){
             cin>>a[i];
             acam.insert(a[i]);
         }
-        acam.build();
-        cin>>m;
+        acam.build();cin>>m;
         for (int i=1;i<=m;i++){
             int x,y;cin>>x>>y;
             qid++;
