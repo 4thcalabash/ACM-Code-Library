@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/calabash_boy/桌面/ACM-Code-Library/Graph/Dijkstra.cpp" "/home/calabash_boy/桌面/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.o"
+  "D:/workspace/ACM-Code-Library/Graph/Tree/Heavy_Light_Decomposition.cpp" "D:/workspace/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/Graph/Tree/Heavy_Light_Decomposition.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
