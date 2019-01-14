@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj"
+  "CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.obj"
   "ACM-Code-Library.pdb"
   "ACM-Code-Library.exe"
   "ACM-Code-Library.exe.manifest"

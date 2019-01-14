@@ -42,10 +42,10 @@ RM = "D:\CLion 2018.3\bin\cmake\win\bin\cmake.exe" -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\workspace\ACM-Code-Library
+CMAKE_SOURCE_DIR = C:\Users\Administrator\Desktop\ACM-Code-Library
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\workspace\ACM-Code-Library\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Administrator\Desktop\ACM-Code-Library\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ACM-Code-Library.dir/depend.make
@@ -56,32 +56,32 @@ include CMakeFiles/ACM-Code-Library.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ACM-Code-Library.dir/flags.make
 
-CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj: CMakeFiles/ACM-Code-Library.dir/flags.make
-CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj: ../String/Manacher.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\workspace\ACM-Code-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ACM-Code-Library.dir\String\Manacher.cpp.obj -c D:\workspace\ACM-Code-Library\String\Manacher.cpp
+CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.obj: CMakeFiles/ACM-Code-Library.dir/flags.make
+CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.obj: ../Math/Matrix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Administrator\Desktop\ACM-Code-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ACM-Code-Library.dir\Math\Matrix.cpp.obj -c C:\Users\Administrator\Desktop\ACM-Code-Library\Math\Matrix.cpp
 
-CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\workspace\ACM-Code-Library\String\Manacher.cpp > CMakeFiles\ACM-Code-Library.dir\String\Manacher.cpp.i
+CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\Administrator\Desktop\ACM-Code-Library\Math\Matrix.cpp > CMakeFiles\ACM-Code-Library.dir\Math\Matrix.cpp.i
 
-CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\workspace\ACM-Code-Library\String\Manacher.cpp -o CMakeFiles\ACM-Code-Library.dir\String\Manacher.cpp.s
+CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\Administrator\Desktop\ACM-Code-Library\Math\Matrix.cpp -o CMakeFiles\ACM-Code-Library.dir\Math\Matrix.cpp.s
 
 # Object files for target ACM-Code-Library
 ACM__Code__Library_OBJECTS = \
-"CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj"
+"CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.obj"
 
 # External object files for target ACM-Code-Library
 ACM__Code__Library_EXTERNAL_OBJECTS =
 
-ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/String/Manacher.cpp.obj
+ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.obj
 ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/build.make
 ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/linklibs.rsp
 ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/objects1.rsp
 ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\workspace\ACM-Code-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ACM-Code-Library.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Administrator\Desktop\ACM-Code-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable ACM-Code-Library.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\ACM-Code-Library.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +94,6 @@ CMakeFiles/ACM-Code-Library.dir/clean:
 .PHONY : CMakeFiles/ACM-Code-Library.dir/clean
 
 CMakeFiles/ACM-Code-Library.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\workspace\ACM-Code-Library D:\workspace\ACM-Code-Library D:\workspace\ACM-Code-Library\cmake-build-debug D:\workspace\ACM-Code-Library\cmake-build-debug D:\workspace\ACM-Code-Library\cmake-build-debug\CMakeFiles\ACM-Code-Library.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Administrator\Desktop\ACM-Code-Library C:\Users\Administrator\Desktop\ACM-Code-Library C:\Users\Administrator\Desktop\ACM-Code-Library\cmake-build-debug C:\Users\Administrator\Desktop\ACM-Code-Library\cmake-build-debug C:\Users\Administrator\Desktop\ACM-Code-Library\cmake-build-debug\CMakeFiles\ACM-Code-Library.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ACM-Code-Library.dir/depend
 
