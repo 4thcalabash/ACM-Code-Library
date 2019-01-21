@@ -1,2 +1,3 @@
 cmake-buildT0-debug/*
 CMakeLists.txt
+cmake-build-debug/*

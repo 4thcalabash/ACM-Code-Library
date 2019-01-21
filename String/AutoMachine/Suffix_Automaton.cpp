@@ -4,8 +4,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 const int maxn = 25e4+100;
-char s[maxn];
-int n,ans[maxn];
+char s[maxn];int n,ans[maxn];
 /*注意需要按l将节点基数排序来拓扑更新parent树*/
 struct Suffix_Automaton{
     //basic
@@ -22,8 +21,7 @@ struct Suffix_Automaton{
     }
     void init(char *s){
         while (*s){
-            add(*s-'a');
-            s++;
+            add(*s-'a');s++;
         }
     }
     void add(int c){
@@ -40,8 +38,7 @@ struct Suffix_Automaton{
                 int nq = ++ cnt;
                 l[nq] = l[p]+1;
                 memcpy(nxt[nq],nxt[q],sizeof (nxt[q]));
-                fa[nq] =fa[q];
-                fa[np] = fa[q] =nq;
+                fa[nq] =fa[q];fa[np] = fa[q] =nq;
                 while (nxt[p][c]==q)nxt[p][c] =nq,p = fa[p];
             }
         }

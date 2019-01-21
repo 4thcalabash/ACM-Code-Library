@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.o"
+  "CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.o"
   "ACM-Code-Library.pdb"
   "ACM-Code-Library"
 )

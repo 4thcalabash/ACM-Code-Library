@@ -1,25 +1,18 @@
-//
 // Created by calabash_boy on 18-7-3.
 //统计路径上标记边的个数
 #include<bits/stdc++.h>
 using namespace std;
 const int maxn = 500000+100;
-int first[maxn*2];int nxt[maxn*2];int des[maxn*2];
-int tpos[maxn];int dep[maxn];int top[maxn];
-int fa[maxn]; int wson[maxn];  int sz[maxn];
-int n,q,m,Root,tot=0,cnt=0;  char s[10];
+int n,q,m,Root;  char s[10];
 struct BIT{
     int sm[maxn];
     int lowbit(int _x){return _x&(-_x);}
     void build (int l,int r){
-        for (int i=l;i<=r;i++){
-            add(i,1);
-        }
+        for (int i=l;i<=r;i++)add(i,1);
     }
     void add(int x,int val){
         while (x<=maxn){
-            sm[x]+=val;
-            x+=lowbit(x);
+            sm[x]+=val;x+=lowbit(x);
         }
     }
     int sum(int x){
@@ -34,13 +27,16 @@ struct BIT{
         return sum(r)-sum(l-1);
     }
 }tree;
-
-inline void addEdge(int _u, int _v){
-    des[++tot] = _v;
-    nxt[tot] = first[_u];
-    first[_u] = tot;
-}
-namespace Tree_Chain_Division{
+namespace Heavy_Light_Decomposition{
+    int first[maxn*2];int nxt[maxn*2];int des[maxn*2];
+    int tot,cnt=0;
+    int tpos[maxn];int dep[maxn];int top[maxn];
+    int fa[maxn]; int wson[maxn];  int sz[maxn];
+    inline void addEdge(int _u, int _v){
+        des[++tot] = _v;
+        nxt[tot] = first[_u];
+        first[_u] = tot;
+    }
     //统计dep，子树sz，重儿子wson
     void dfs(int node,int father){
         dep[node] = dep[father]+1;
@@ -96,15 +92,14 @@ namespace Tree_Chain_Division{
         return res;
     }
 }
-
-
 int main(){
     scanf("%d",&n);
     for (int i=1;i<n;i++){
         int u,v;  scanf("%d%d",&u,&v);
-        addEdge(u, v);addEdge(v, u);
+        Heavy_Light_Decomposition::addEdge(u, v);
+        Heavy_Light_Decomposition::addEdge(v, u);
     }
-    Tree_Chain_Division::init(1);
+    Heavy_Light_Decomposition::init(1);
     //维护
     tree.build(2,n);
     scanf("%d",&q);
@@ -114,11 +109,11 @@ int main(){
         if (s[0]=='W'){
             int x;
             scanf("%d",&x);
-            printf("%d\n",Tree_Chain_Division::get_sum(1,x));
+            printf("%d\n",Heavy_Light_Decomposition::get_sum(1,x));
         }else{
             int x,y;
             scanf("%d%d",&x,&y);
-            Tree_Chain_Division::modify(x,y);
+            Heavy_Light_Decomposition::modify(x,y);
         }
     }
     return 0;

@@ -123,32 +123,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-Graph/Dijkstra.o: Graph/Dijkstra.cpp.o
+Math/Matrix.o: Math/Matrix.cpp.o
 
-.PHONY : Graph/Dijkstra.o
+.PHONY : Math/Matrix.o
 
 # target to build an object file
-Graph/Dijkstra.cpp.o:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.o
-.PHONY : Graph/Dijkstra.cpp.o
+Math/Matrix.cpp.o:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.o
+.PHONY : Math/Matrix.cpp.o
 
-Graph/Dijkstra.i: Graph/Dijkstra.cpp.i
+Math/Matrix.i: Math/Matrix.cpp.i
 
-.PHONY : Graph/Dijkstra.i
+.PHONY : Math/Matrix.i
 
 # target to preprocess a source file
-Graph/Dijkstra.cpp.i:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.i
-.PHONY : Graph/Dijkstra.cpp.i
+Math/Matrix.cpp.i:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.i
+.PHONY : Math/Matrix.cpp.i
 
-Graph/Dijkstra.s: Graph/Dijkstra.cpp.s
+Math/Matrix.s: Math/Matrix.cpp.s
 
-.PHONY : Graph/Dijkstra.s
+.PHONY : Math/Matrix.s
 
 # target to generate assembly for a file
-Graph/Dijkstra.cpp.s:
-	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Graph/Dijkstra.cpp.s
-.PHONY : Graph/Dijkstra.cpp.s
+Math/Matrix.cpp.s:
+	$(MAKE) -f CMakeFiles/ACM-Code-Library.dir/build.make CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.s
+.PHONY : Math/Matrix.cpp.s
 
 # Help Target
 help:
@@ -159,9 +159,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... ACM-Code-Library"
-	@echo "... Graph/Dijkstra.o"
-	@echo "... Graph/Dijkstra.i"
-	@echo "... Graph/Dijkstra.s"
+	@echo "... Math/Matrix.o"
+	@echo "... Math/Matrix.i"
+	@echo "... Math/Matrix.s"
 .PHONY : help
 
 
