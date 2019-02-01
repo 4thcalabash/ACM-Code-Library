@@ -1,1 +1,3 @@
-/usr/bin/c++  -g   CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.o  -o ACM-Code-Library 
+"A:\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -E remove -f CMakeFiles\ACM-Code-Library.dir/objects.a
+A:\MingW\mingw64\bin\ar.exe cr CMakeFiles\ACM-Code-Library.dir/objects.a @CMakeFiles\ACM-Code-Library.dir\objects1.rsp
+A:\MingW\mingw64\bin\g++.exe -g   -Wl,--whole-archive CMakeFiles\ACM-Code-Library.dir/objects.a -Wl,--no-whole-archive  -o ACM-Code-Library.exe -Wl,--out-implib,libACM-Code-Library.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\ACM-Code-Library.dir\linklibs.rsp

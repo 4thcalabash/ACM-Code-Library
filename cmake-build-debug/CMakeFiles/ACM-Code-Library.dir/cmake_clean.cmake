@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.o"
+  "CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.obj"
   "ACM-Code-Library.pdb"
-  "ACM-Code-Library"
+  "ACM-Code-Library.exe"
+  "ACM-Code-Library.exe.manifest"
+  "libACM-Code-Library.dll.a"
 )
 
 # Per-language clean rules from dependency scanning.
