@@ -122,32 +122,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-Math/Matrix.obj: Math/Matrix.cpp.obj
+Math/CRT.obj: Math/CRT.cpp.obj
 
-.PHONY : Math/Matrix.obj
+.PHONY : Math/CRT.obj
 
 # target to build an object file
-Math/Matrix.cpp.obj:
-	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.obj
-.PHONY : Math/Matrix.cpp.obj
+Math/CRT.cpp.obj:
+	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.obj
+.PHONY : Math/CRT.cpp.obj
 
-Math/Matrix.i: Math/Matrix.cpp.i
+Math/CRT.i: Math/CRT.cpp.i
 
-.PHONY : Math/Matrix.i
+.PHONY : Math/CRT.i
 
 # target to preprocess a source file
-Math/Matrix.cpp.i:
-	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.i
-.PHONY : Math/Matrix.cpp.i
+Math/CRT.cpp.i:
+	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.i
+.PHONY : Math/CRT.cpp.i
 
-Math/Matrix.s: Math/Matrix.cpp.s
+Math/CRT.s: Math/CRT.cpp.s
 
-.PHONY : Math/Matrix.s
+.PHONY : Math/CRT.s
 
 # target to generate assembly for a file
-Math/Matrix.cpp.s:
-	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.s
-.PHONY : Math/Matrix.cpp.s
+Math/CRT.cpp.s:
+	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.s
+.PHONY : Math/CRT.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... ACM-Code-Library
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/Matrix.obj
-	@echo ... Math/Matrix.i
-	@echo ... Math/Matrix.s
+	@echo ... Math/CRT.obj
+	@echo ... Math/CRT.i
+	@echo ... Math/CRT.s
 .PHONY : help
 
 

@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/DELL/CLionProjects/ACM-Code-Library/Math/Matrix.cpp" "C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/Math/Matrix.cpp.obj"
+  "C:/Users/DELL/CLionProjects/ACM-Code-Library/Math/CRT.cpp" "C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
