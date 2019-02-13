@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/DELL/CLionProjects/ACM-Code-Library/Math/CRT.cpp" "C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.obj"
+  "C:/Users/DELL/CLionProjects/ACM-Code-Library/Math/linear_sieve.cpp" "C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

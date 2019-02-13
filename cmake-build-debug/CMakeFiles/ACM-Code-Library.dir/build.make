@@ -56,27 +56,27 @@ include CMakeFiles/ACM-Code-Library.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/ACM-Code-Library.dir/flags.make
 
-CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.obj: CMakeFiles/ACM-Code-Library.dir/flags.make
-CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.obj: ../Math/CRT.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\DELL\CLionProjects\ACM-Code-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.obj"
-	A:\MingW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ACM-Code-Library.dir\Math\CRT.cpp.obj -c C:\Users\DELL\CLionProjects\ACM-Code-Library\Math\CRT.cpp
+CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.obj: CMakeFiles/ACM-Code-Library.dir/flags.make
+CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.obj: ../Math/linear_sieve.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\DELL\CLionProjects\ACM-Code-Library\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.obj"
+	A:\MingW\mingw64\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\ACM-Code-Library.dir\Math\linear_sieve.cpp.obj -c C:\Users\DELL\CLionProjects\ACM-Code-Library\Math\linear_sieve.cpp
 
-CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.i"
-	A:\MingW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\DELL\CLionProjects\ACM-Code-Library\Math\CRT.cpp > CMakeFiles\ACM-Code-Library.dir\Math\CRT.cpp.i
+CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.i"
+	A:\MingW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\DELL\CLionProjects\ACM-Code-Library\Math\linear_sieve.cpp > CMakeFiles\ACM-Code-Library.dir\Math\linear_sieve.cpp.i
 
-CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.s"
-	A:\MingW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\DELL\CLionProjects\ACM-Code-Library\Math\CRT.cpp -o CMakeFiles\ACM-Code-Library.dir\Math\CRT.cpp.s
+CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.s"
+	A:\MingW\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\DELL\CLionProjects\ACM-Code-Library\Math\linear_sieve.cpp -o CMakeFiles\ACM-Code-Library.dir\Math\linear_sieve.cpp.s
 
 # Object files for target ACM-Code-Library
 ACM__Code__Library_OBJECTS = \
-"CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.obj"
+"CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.obj"
 
 # External object files for target ACM-Code-Library
 ACM__Code__Library_EXTERNAL_OBJECTS =
 
-ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.obj
+ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.obj
 ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/build.make
 ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/linklibs.rsp
 ACM-Code-Library.exe: CMakeFiles/ACM-Code-Library.dir/objects1.rsp

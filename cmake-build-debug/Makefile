@@ -122,32 +122,32 @@ ACM-Code-Library/fast:
 	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/build
 .PHONY : ACM-Code-Library/fast
 
-Math/CRT.obj: Math/CRT.cpp.obj
+Math/linear_sieve.obj: Math/linear_sieve.cpp.obj
 
-.PHONY : Math/CRT.obj
+.PHONY : Math/linear_sieve.obj
 
 # target to build an object file
-Math/CRT.cpp.obj:
-	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.obj
-.PHONY : Math/CRT.cpp.obj
+Math/linear_sieve.cpp.obj:
+	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.obj
+.PHONY : Math/linear_sieve.cpp.obj
 
-Math/CRT.i: Math/CRT.cpp.i
+Math/linear_sieve.i: Math/linear_sieve.cpp.i
 
-.PHONY : Math/CRT.i
+.PHONY : Math/linear_sieve.i
 
 # target to preprocess a source file
-Math/CRT.cpp.i:
-	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.i
-.PHONY : Math/CRT.cpp.i
+Math/linear_sieve.cpp.i:
+	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.i
+.PHONY : Math/linear_sieve.cpp.i
 
-Math/CRT.s: Math/CRT.cpp.s
+Math/linear_sieve.s: Math/linear_sieve.cpp.s
 
-.PHONY : Math/CRT.s
+.PHONY : Math/linear_sieve.s
 
 # target to generate assembly for a file
-Math/CRT.cpp.s:
-	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/CRT.cpp.s
-.PHONY : Math/CRT.cpp.s
+Math/linear_sieve.cpp.s:
+	$(MAKE) -f CMakeFiles\ACM-Code-Library.dir\build.make CMakeFiles/ACM-Code-Library.dir/Math/linear_sieve.cpp.s
+.PHONY : Math/linear_sieve.cpp.s
 
 # Help Target
 help:
@@ -158,9 +158,9 @@ help:
 	@echo ... ACM-Code-Library
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... Math/CRT.obj
-	@echo ... Math/CRT.i
-	@echo ... Math/CRT.s
+	@echo ... Math/linear_sieve.obj
+	@echo ... Math/linear_sieve.i
+	@echo ... Math/linear_sieve.s
 .PHONY : help
 
 
