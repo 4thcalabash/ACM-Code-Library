@@ -9,6 +9,7 @@ ll f[maxn];
 int low[maxn];
 void sieve(int size){
     //f:multiplicative function;
+    assert(size < maxn);
     mu[1] = 1;
     f[1] = 1;
     for (int i=2;i<=size;i++){

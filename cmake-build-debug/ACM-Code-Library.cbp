@@ -8,82 +8,82 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ACM-Code-Library">
-				<Option output="C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/ACM-Code-Library.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug"/>
+				<Option output="C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/ACM-Code-Library.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 ACM-Code-Library"/>
-					<CompileFile command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 ACM-Code-Library"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ACM-Code-Library/fast">
-				<Option output="C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/ACM-Code-Library.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug"/>
+				<Option output="C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/ACM-Code-Library.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++"/>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32"/>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward"/>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include"/>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed"/>
-					<Add directory="A:/MingW/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/8.1.0/../../../../x86_64-w64-mingw32/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/i686-w64-mingw32"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/include-fixed"/>
+					<Add directory="C:/Program Files (x86)/mingw-w64/i686-8.1.0-posix-dwarf-rt_v6-rev0/mingw32/bin/../lib/gcc/i686-w64-mingw32/8.1.0/../../../../i686-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 ACM-Code-Library/fast"/>
-					<CompileFile command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 ACM-Code-Library/fast"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="A:/MingW/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~2/MINGW-~1/I686-8~1.0-P/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/DELL/CLionProjects/ACM-Code-Library/Math/linear_sieve.cpp">
+		<Unit filename="C:/Users/Administrator/Desktop/ACM-Code-Library/Math/linear_sieve.cpp">
 			<Option target="ACM-Code-Library"/>
 		</Unit>
-		<Unit filename="C:/Users/DELL/CLionProjects/ACM-Code-Library/CMakeLists.txt">
+		<Unit filename="C:/Users/Administrator/Desktop/ACM-Code-Library/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
