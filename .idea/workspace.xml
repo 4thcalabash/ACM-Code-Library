@@ -12,8 +12,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56a05e1d-1796-4ea0-9f45-104f1f617551" name="Default" comment="update shortest path tree in Dijkstra">
+      <change afterPath="$PROJECT_DIR$/String/Automaton/Generalized_Suffix_Automaton.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/String/Suffix_Array.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/Suffix_Array.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/AutoMachine/Aho-Corasick_Automaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/Automaton/Aho-Corasick_Automaton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/AutoMachine/Palindromic_Automaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/Automaton/Palindromic_Automaton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/AutoMachine/Suffix_Automaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/Automaton/Suffix_Automaton.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/ACM-Code-Library.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/ACM-Code-Library.cbp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/flags.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/flags.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-environment.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/feature_tests.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,19 +49,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Math/CRT.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Math/linear_sieve.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1056">
-              <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
+              <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -70,20 +84,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String/Suffix_Array.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="22">
               <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-              <folding>
-                <element signature="e#967#1668#0" expanded="true" />
-                <element signature="e#3473#3557#0" expanded="true" />
-                <element signature="e#3585#3613#0" expanded="true" />
-                <element signature="e#3818#3857#0" expanded="true" />
-                <element signature="e#3986#4056#0" expanded="true" />
-                <element signature="e#4743#4802#0" expanded="true" />
-                <element signature="e#4997#5088#0" expanded="true" />
-              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/String/Automaton/Generalized_Suffix_Automaton.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="383">
+              <caret line="103" column="55" selection-start-line="103" selection-start-column="55" selection-end-line="103" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -98,7 +112,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/String/AutoMachine/Aho-Corasick_Automaton.cpp">
+        <entry file="file://$PROJECT_DIR$/String/Automaton/Aho-Corasick_Automaton.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="2398">
               <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
@@ -107,7 +121,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/String/AutoMachine/Palindromic_Automaton.cpp">
+        <entry file="file://$PROJECT_DIR$/String/Automaton/Palindromic_Automaton.cpp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1650">
               <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
@@ -189,20 +203,22 @@
         <option value="$PROJECT_DIR$/Math/CRT.cpp" />
         <option value="$PROJECT_DIR$/Math/linear_sieve.cpp" />
         <option value="$PROJECT_DIR$/String/Suffix_Array.cpp" />
+        <option value="$PROJECT_DIR$/String/Automaton/Generalized_Suffix_Automaton.cpp" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1029" />
-    <option name="y" value="65" />
-    <option name="width" value="627" />
-    <option name="height" value="666" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -239,13 +255,12 @@
               <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
               <item name="String" type="462c0819:PsiDirectoryNode" />
-              <item name="AutoMachine" type="462c0819:PsiDirectoryNode" />
+              <item name="Automaton" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,6 +375,7 @@
       <workItem from="1549258843002" duration="30000" />
       <workItem from="1549949956833" duration="3814000" />
       <workItem from="1550036136929" duration="600000" />
+      <workItem from="1554473179669" duration="280000" />
     </task>
     <task id="LOCAL-00001" summary="add String-Hash-1D">
       <created>1527845769136</created>
@@ -428,7 +444,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="115251000" />
+    <option name="totallyTimeSpent" value="115813000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -440,10 +456,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18976545" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19235925" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -454,7 +470,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.06866953" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7013129" visible="true" weight="0.28199565" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7013129" visible="true" weight="0.16430596" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.7362162" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32188842" />
@@ -533,12 +549,12 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/String/AutoMachine/Palindromic_Automaton.cpp</url>
+          <url>file://$PROJECT_DIR$/String/Automaton/Palindromic_Automaton.cpp</url>
           <line>72</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/String/AutoMachine/Palindromic_Automaton.cpp</url>
+          <url>file://$PROJECT_DIR$/String/Automaton/Palindromic_Automaton.cpp</url>
           <line>52</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -706,7 +722,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/String/AutoMachine/Suffix_Automaton.cpp">
+    <entry file="file://$PROJECT_DIR$/String/Automaton/Suffix_Automaton.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1482">
           <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
@@ -734,6 +750,34 @@
           <folding>
             <element signature="e#39#55#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Math/linear_sieve.h" />
+    <entry file="file://$PROJECT_DIR$/Graph/Tree/Heavy_Light_Decomposition.cpp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Math/Matrix.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding>
+            <element signature="e#1210#1222#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Math/CRT.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Math/linear_sieve.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1056">
+          <caret line="48" column="1" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -765,14 +809,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/String/AutoMachine/Aho-Corasick_Automaton.cpp">
+    <entry file="file://$PROJECT_DIR$/String/Automaton/Aho-Corasick_Automaton.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2398">
           <caret line="109" column="1" selection-start-line="109" selection-start-column="1" selection-end-line="109" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/String/AutoMachine/Palindromic_Automaton.cpp">
+    <entry file="file://$PROJECT_DIR$/String/Automaton/Palindromic_Automaton.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1650">
           <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
@@ -786,47 +830,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Math/CRT.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Math/linear_sieve.h" />
-    <entry file="file://$PROJECT_DIR$/Graph/Tree/Heavy_Light_Decomposition.cpp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Math/Matrix.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="14" lean-forward="true" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="e#1210#1222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Math/linear_sieve.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1056">
-          <caret line="48" column="1" lean-forward="true" selection-start-line="48" selection-start-column="1" selection-end-line="48" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/String/Suffix_Array.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="22">
           <caret line="19" column="15" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
-          <folding>
-            <element signature="e#967#1668#0" expanded="true" />
-            <element signature="e#3473#3557#0" expanded="true" />
-            <element signature="e#3585#3613#0" expanded="true" />
-            <element signature="e#3818#3857#0" expanded="true" />
-            <element signature="e#3986#4056#0" expanded="true" />
-            <element signature="e#4743#4802#0" expanded="true" />
-            <element signature="e#4997#5088#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/Automaton/Generalized_Suffix_Automaton.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="103" column="55" selection-start-line="103" selection-start-column="55" selection-end-line="103" selection-end-column="55" />
         </state>
       </provider>
     </entry>
