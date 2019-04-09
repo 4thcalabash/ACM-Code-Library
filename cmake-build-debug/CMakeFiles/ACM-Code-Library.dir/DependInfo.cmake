@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/DELL/CLionProjects/ACM-Code-Library/String/Automaton/Generalized_Suffix_Automaton.cpp" "C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/String/Automaton/Generalized_Suffix_Automaton.cpp.obj"
+  "C:/Users/Administrator/Desktop/ACM-Code-Library/String/Automaton/Suffix_Automaton.cpp" "C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir/String/Automaton/Suffix_Automaton.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

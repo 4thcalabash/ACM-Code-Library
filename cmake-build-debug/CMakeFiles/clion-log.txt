@@ -1,4 +1,4 @@
-"A:\CLion 2018.3.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\DELL\CLionProjects\ACM-Code-Library
+"D:\CLion 2018.3\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Administrator\Desktop\ACM-Code-Library
 -- Configuring done
 -- Generating done
--- Build files have been written to: C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug
+-- Build files have been written to: C:/Users/Administrator/Desktop/ACM-Code-Library/cmake-build-debug

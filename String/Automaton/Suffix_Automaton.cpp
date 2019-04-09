@@ -2,8 +2,52 @@
 //SPOJ substring
 // calc ans_i=长度=i的所有子串，出现次数最多的一种出现了多少次。
 #include<bits/stdc++.h>
+#define RIGHT
+//RIGHT: parent树的dfs序上主席树，求每个点的Right集合
 using namespace std;
 const int maxn = 25e4+100;
+struct Node{int L,R,val;}Tree[maxn*40];
+#ifdef RIGHT
+struct Chairman_Tree{
+    int cnt = 0;
+    int root[maxn*2];
+    void init(){
+        memset(root,0,sizeof root);
+        cnt =0;
+    }
+    /* 建T0空树 */
+    int buildT0(int l, int r){
+        int k = cnt++;
+        Tree[k].val =0;
+        if (l==r) return k;
+        int mid = l+r >>1;
+        Tree[k].L = buildT0(l, mid);Tree[k].R = buildT0(mid + 1, r);
+        return k;
+    }
+    /* 上一个版本节点P，【ppos】+=del 返回新版本节点*/
+    int update (int P,int l,int r,int ppos,int del){
+        assert(cnt < maxn*50);
+        int k = cnt++;
+        Tree[k].val = Tree[P].val +del;
+        if (l==r) return k;
+        int mid = l+r >>1;
+        if (ppos<=mid){
+            Tree[k].L = update(Tree[P].L,l,mid,ppos,del);
+            Tree[k].R = Tree[P].R;
+        }else{
+            Tree[k].L = Tree[P].L;
+            Tree[k].R = update(Tree[P].R,mid+1,r,ppos,del);
+        }
+        return k;
+    }
+    int query(int PL,int PR,int l,int r,int L,int R){
+        if (l>R || L>r)return 0;
+        if (L <= l && r <= R)return Tree[PR].val - Tree[PL].val;
+        int mid = l + r >> 1;
+        return query(Tree[PL].L,Tree[PR].L,l,mid,L,R) + query(Tree[PL].R,Tree[PR].R,mid+1,r,L,R);
+    }
+}tree;
+#endif
 char s[maxn];int n,ans[maxn];
 /*注意需要按l将节点基数排序来拓扑更新parent树*/
 struct Suffix_Automaton{
@@ -13,6 +57,12 @@ struct Suffix_Automaton{
     //extension
     int cntA[maxn*2],A[maxn*2];/*辅助拓扑更新*/
     int num[maxn*2];/*每个节点代表的所有串的出现次数*/
+#ifdef RIGHT
+    vector<int> E[maxn*2];
+    int dfsl[maxn*2],dfsr[maxn*2],dfn;
+    int pos[maxn*2];
+    int end_pos[maxn*2];//1基
+#endif
     Suffix_Automaton(){ clear(); }
     void clear(){
         last =cnt=1;
@@ -67,6 +117,39 @@ struct Suffix_Automaton{
             ans[i-1] = max(ans[i-1],ans[i]);
         }
     }
+
+#ifdef RIGHT
+    void dfs(int u){
+        dfsl[u] = ++ dfn;
+        pos[dfn] = u;
+        for (int v : E[u]){
+            dfs(v);
+        }
+        dfsr[u] = dfn;
+    }
+    void extract_right(){
+        int temp = 1;
+        for (int i=0;i<n;i++){
+            temp = nxt[temp][s[i] - 'a'];
+            end_pos[temp] = i+1;
+        }
+        for (int i=2;i<=cnt;i++){
+            E[fa[i]].push_back(i);
+        }
+        dfn = 0;
+        dfs(1);
+        tree.root[0] = tree.buildT0(1,n);
+        for (int i=1;i<=cnt;i++){
+            int u = pos[i];
+            if (end_pos[u]){
+                int idx = end_pos[u];
+                tree.root[i] = tree.update(tree.root[i-1],1,n,idx,1);
+            }else{
+                tree.root[i] = tree.root[i-1];
+            }
+        }
+    }
+#endif
     void debug(){
         for (int i=cnt;i>=1;i--){
             printf("num[%d]=%d l[%d]=%d fa[%d]=%d\n",i,num[i],i,l[i],i,fa[i]);
