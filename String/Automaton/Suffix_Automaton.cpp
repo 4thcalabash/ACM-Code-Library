@@ -119,6 +119,9 @@ struct Suffix_Automaton{
     }
 
 #ifdef RIGHT
+    int get_right_between(int u,int l,int r){
+        return tree.query(tree.root[dfsl[u] - 1],tree.root[dfsr[u]],1,::n,l,r);
+    }
     void dfs(int u){
         dfsl[u] = ++ dfn;
         pos[dfn] = u;
