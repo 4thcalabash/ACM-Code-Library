@@ -1,4 +1,4 @@
-// Created by calabash_boy on 18-10-18.
+// Created by calabash_boy
 #pragma GCC optimize(3)
 #include <bits/stdc++.h>
 using namespace std;
