@@ -1,7 +1,7 @@
 # ACM-Code-Library
 @Author calabash_boy
 
-**This is a Clion project, so that you can open it in Clion directly.**
+**This is a Clion project, so you can open it in Clion directly.**
 
 ## Blog:[calabash_boy](http://blog.csdn.net/calabash_boy)
 
