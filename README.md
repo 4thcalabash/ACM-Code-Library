@@ -1,5 +1,6 @@
 # ACM-Code-Library
-@Author calabash_boy
+
+**calabash_boy's personal programming contest code library.**
 
 **This is a Clion project, so you can open it in Clion directly.**
 
