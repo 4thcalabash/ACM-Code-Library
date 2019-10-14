@@ -1,3 +1,0 @@
-C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/CMakeFiles/ACM-Code-Library.dir
-C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/DELL/CLionProjects/ACM-Code-Library/cmake-build-debug/CMakeFiles/rebuild_cache.dir
