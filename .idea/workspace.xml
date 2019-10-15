@@ -11,7 +11,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="56a05e1d-1796-4ea0-9f45-104f1f617551" name="Default" comment="update shortest path tree in Dijkstra" />
+    <list default="true" id="56a05e1d-1796-4ea0-9f45-104f1f617551" name="Default" comment="update shortest path tree in Dijkstra">
+      <change afterPath="$PROJECT_DIR$/Graph/Tree/Edge-Divide&amp;Conquer.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,24 +25,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Math/CRT.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="638">
-              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Algorithm/Geometry.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1100">
-              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Data_Structure/Persistent_LiChao_SegmentTree.cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -67,11 +52,29 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Others/formula.txt">
           <provider selected="true" editor-type-id="text-editor">
             <state>
               <caret column="19" selection-start-column="19" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/String/Automaton/Suffix_Automaton.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Graph/Tree/Edge-Divide&amp;Conquer.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="173">
+              <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -180,12 +183,14 @@
         <option value="$PROJECT_DIR$/Math/CRT.cpp" />
         <option value="$PROJECT_DIR$/Data_Structure/Persistent_LiChao_SegmentTree.cpp" />
         <option value="$PROJECT_DIR$/Others/formula.txt" />
+        <option value="$PROJECT_DIR$/String/Automaton/Suffix_Automaton.cpp" />
+        <option value="$PROJECT_DIR$/Graph/Tree/Edge-Divide&amp;Conquer.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="880" />
-    <option name="width" value="1049" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="870" />
+    <option name="width" value="1059" />
     <option name="height" value="1090" />
   </component>
   <component name="ProjectView">
@@ -214,6 +219,12 @@
               <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
               <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
               <item name="Graph" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
+              <item name="Graph" type="462c0819:PsiDirectoryNode" />
+              <item name="Tree" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
@@ -364,7 +375,7 @@
       <workItem from="1570953940947" duration="20000" />
       <workItem from="1571033458352" duration="667000" />
       <workItem from="1571034611168" duration="223000" />
-      <workItem from="1571121904014" duration="353000" />
+      <workItem from="1571121904014" duration="1165000" />
     </task>
     <task id="LOCAL-00001" summary="add String-Hash-1D">
       <created>1527845769136</created>
@@ -433,7 +444,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123977000" />
+    <option name="totallyTimeSpent" value="124789000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -445,10 +456,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="-7" width="1488" height="878" extended-state="7" />
+    <frame x="55" y="-7" width="1488" height="878" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22027972" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22027972" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -459,7 +470,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.17280453" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7013129" visible="true" weight="0.3163539" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7013129" visible="true" weight="0.1930295" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.7362162" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.32188842" />
@@ -685,13 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/String/Automaton/Suffix_Automaton.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1482">
-          <caret line="78" column="18" selection-start-line="78" selection-start-column="18" selection-end-line="78" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/String/Hash-1D.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="817">
@@ -839,6 +843,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/String/Automaton/Suffix_Automaton.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="12" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Graph/Tree/Edge-Divide&amp;Conquer.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="87" column="5" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
         </state>
       </provider>
     </entry>
