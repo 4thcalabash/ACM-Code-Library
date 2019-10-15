@@ -1,5 +1,5 @@
 // Created by calabash_boy on 2019/10/15.
-// Given S, calculate \
+// Luogu 5115.SAM + 边分 + 虚树DP: Given S, calculate
 // \sum_{i<j and LCP(i,j)<=K1 and LCS(i,j)<=K2}{LCS(i,j) * LCP(i,j)}
 // 最大度数有限制（例如parent树27度），则不需要三度化。
 #include<bits/stdc++.h>
