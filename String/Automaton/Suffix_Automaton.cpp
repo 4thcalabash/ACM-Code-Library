@@ -6,8 +6,8 @@
 //RIGHT: parent树的dfs序上主席树，求每个点的Right集合
 using namespace std;
 const int maxn = 25e4+100;
-struct Node{int L,R,val;}Tree[maxn*40];
 #ifdef RIGHT
+struct Node{int L,R,val;}Tree[maxn*40];
 struct Chairman_Tree{
     int cnt = 0;
     int root[maxn*2];
