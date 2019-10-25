@@ -23,6 +23,7 @@ typedef pair<int,int> pii;
 typedef pair<ll,ll> pll;
 const int inf = 0x3f3f3f3f;
 const ll inf_ll = 0x3f3f3f3f3f3f3f3fLL;
+mt19937 wdy(time(0));
 /************* header ******************/
 int main(){
     return 0;
