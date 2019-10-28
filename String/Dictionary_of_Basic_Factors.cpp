@@ -1,6 +1,7 @@
 // Created by calabash_boy on 2019/10/28.
 // CF 100962D 求区间border series，最大border。
 #include <bits/stdc++.h>
+#define rank rkrkrk
 using namespace std;
 const int maxn = 2e5 + 100;
 const int maxlog = 20;
@@ -135,6 +136,15 @@ struct Dictionary_of_Basic_Factories{
         }
         return ret;
     }
+    int get_biggest_border(int l,int r){
+        int len = r - l + 1;
+        for (int k = maxlog - 1; k >=0;k--){
+            if ((1<<k) >= len)continue;
+            Sequence seq = get_border(l,r,k);
+            if (seq.r)return seq.r;
+        }
+        return 0;
+    }
 }dbf;
 char s[maxn];
 int n,q;
@@ -145,10 +155,7 @@ int main(){
     while (q--){
         int l,r;
         scanf("%d%d",&l,&r);
-        vector<Sequence> seqlist = dbf.get_border_series(l,r);
-        int ans = 0;
-        for (auto seq : seqlist)ans = max(ans,seq.r);
-        printf("%d\n",ans);
+        printf("%d\n",dbf.get_biggest_border(l,r));
     }
     return 0;
 }

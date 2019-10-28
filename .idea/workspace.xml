@@ -15,8 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56a05e1d-1796-4ea0-9f45-104f1f617551" name="Default" comment="update shortest path tree in Dijkstra">
-      <change afterPath="$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -70,14 +69,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2431">
-              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="332">
+              <caret line="117" column="9" lean-forward="true" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
               <folding>
-                <element signature="e#217#296#0" />
-                <element signature="e#301#622#0" />
-                <element signature="e#627#708#0" />
-                <element signature="e#713#792#0" />
-                <element signature="e#797#957#0" />
+                <element signature="e#260#339#0" />
+                <element signature="e#344#665#0" />
+                <element signature="e#670#751#0" />
+                <element signature="e#756#835#0" />
+                <element signature="e#840#1000#0" />
               </folding>
             </state>
           </provider>
@@ -380,7 +379,7 @@
       <workItem from="1571034611168" duration="223000" />
       <workItem from="1571121904014" duration="1268000" />
       <workItem from="1572244770011" duration="43000" />
-      <workItem from="1572256838993" duration="78000" />
+      <workItem from="1572256838993" duration="564000" />
     </task>
     <task id="LOCAL-00001" summary="add String-Hash-1D">
       <created>1527845769136</created>
@@ -449,7 +448,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5613000" />
+    <option name="totallyTimeSpent" value="6099000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -464,7 +463,7 @@
     <frame x="661" y="0" width="880" height="871" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22871046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22871046" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -475,7 +474,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.33683106" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7013129" visible="true" weight="0.26251692" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7013129" visible="true" weight="0.26251692" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.7362162" />
       <window_info anchor="bottom" id="CMake" order="11" weight="0.3210913" />
@@ -688,14 +687,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2431">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+        <state relative-caret-position="332">
+          <caret line="117" column="9" lean-forward="true" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
           <folding>
-            <element signature="e#217#296#0" />
-            <element signature="e#301#622#0" />
-            <element signature="e#627#708#0" />
-            <element signature="e#713#792#0" />
-            <element signature="e#797#957#0" />
+            <element signature="e#260#339#0" />
+            <element signature="e#344#665#0" />
+            <element signature="e#670#751#0" />
+            <element signature="e#756#835#0" />
+            <element signature="e#840#1000#0" />
           </folding>
         </state>
       </provider>
