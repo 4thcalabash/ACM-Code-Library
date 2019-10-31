@@ -10,6 +10,7 @@
 using namespace std;
 const int maxn = 3e5+100;
 int w[maxn];
+int lg[maxn];
 struct Run{
     int l,r,k;
 };
@@ -131,7 +132,7 @@ struct SA{
 #ifndef RMQ
         int lcp = segtree.query(1,1,n,rkx,rky);
 #else
-        int k = log2(rky - rkx+1);
+        int k = lg[(rky - rkx+1)];
         int lcp = min(st[rkx][k],st[rky - (1<<k)+1][k]);
 #endif
 
@@ -193,6 +194,7 @@ ll spanning_forest(vector<Run> &runs){
 }
 int ch[maxn];
 int main(){
+    for (int i=2;i<maxn;i++)lg[i] = lg[i/2] + 1;
     int T;
     scanf("%d",&T);
     while (T--){
