@@ -2,10 +2,11 @@
 <project version="4">
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated>
-      <config projectName="ACM-Code-Library" targetName="Trie_Graph" />
       <config projectName="ACM-Code-Library" targetName="Gauss" />
+      <config projectName="ACM-Code-Library" targetName="DBF" />
       <config projectName="ACM-Code-Library" targetName="Trie_Graph_Segment_Tree" />
       <config projectName="ACM-Code-Library" targetName="SAM" />
+      <config projectName="ACM-Code-Library" targetName="Trie_Graph" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="true">
@@ -15,6 +16,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56a05e1d-1796-4ea0-9f45-104f1f617551" name="Default" comment="update shortest path tree in Dijkstra">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
@@ -30,15 +33,6 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/String/Trie-Graph.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/String/Trie-Graph(SegmentTree).cpp">
           <provider selected="true" editor-type-id="text-editor">
@@ -69,15 +63,30 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="332">
-              <caret line="117" column="9" lean-forward="true" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+            <state relative-caret-position="566">
+              <caret line="231" column="11" lean-forward="true" selection-start-line="231" selection-start-column="11" selection-end-line="231" selection-end-column="11" />
               <folding>
-                <element signature="e#260#339#0" />
-                <element signature="e#344#665#0" />
-                <element signature="e#670#751#0" />
-                <element signature="e#756#835#0" />
-                <element signature="e#840#1000#0" />
+                <element signature="e#224#1026#1" />
+                <element signature="e#284#363#0" />
+                <element signature="e#368#689#0" />
+                <element signature="e#694#775#0" />
+                <element signature="e#780#859#0" />
+                <element signature="e#864#1024#0" />
+                <element signature="e#1187#1816#0" />
+                <element signature="e#4522#5107#0" />
+                <element signature="e#5112#5553#0" />
+                <element signature="e#5558#5931#0" />
+                <element signature="e#5936#6202#0" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/String/Suffix_Array.cpp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2200">
+              <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -112,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
+            <state relative-caret-position="242">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
             </state>
           </provider>
         </entry>
@@ -132,6 +141,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>int</find>
+      <find>Run</find>
     </findStrings>
     <replaceStrings>
       <replace>ll</replace>
@@ -150,16 +160,16 @@
       <list>
         <option value="$PROJECT_DIR$/String/Trie-Graph(SegmentTree).cpp" />
         <option value="$PROJECT_DIR$/String/Trie-Graph.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/Math/Gauss.cpp" />
+        <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="826" />
-    <option name="width" value="1100" />
-    <option name="height" value="1089" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="71" />
+    <option name="width" value="935" />
+    <option name="height" value="1087" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -251,8 +261,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Gauss">
+  <component name="RunManager" selected="Application.DBF">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ACM-Code-Library" RUN_TARGET_NAME="ACM-Code-Library" EXPLICIT_BUILD_TARGET_NAME="all">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DBF" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="ACM-Code-Library" TARGET_NAME="DBF" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ACM-Code-Library" RUN_TARGET_NAME="DBF">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -279,6 +294,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.Build All" />
+      <item itemvalue="Application.DBF" />
       <item itemvalue="Application.Gauss" />
       <item itemvalue="Application.SAM" />
       <item itemvalue="Application.Trie_Graph" />
@@ -379,7 +395,7 @@
       <workItem from="1571034611168" duration="223000" />
       <workItem from="1571121904014" duration="1268000" />
       <workItem from="1572244770011" duration="43000" />
-      <workItem from="1572256838993" duration="564000" />
+      <workItem from="1572256838993" duration="10042000" />
     </task>
     <task id="LOCAL-00001" summary="add String-Hash-1D">
       <created>1527845769136</created>
@@ -448,7 +464,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6099000" />
+    <option name="totallyTimeSpent" value="15577000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -460,24 +476,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="661" y="0" width="880" height="871" extended-state="0" />
+    <frame x="70" y="-8" width="1858" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22871046" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.02836485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2759706" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.031185031" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.32948583" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.33683106" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.7013129" visible="true" weight="0.26251692" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.547744" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7013129" weight="0.26287264" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.7362162" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.3210913" />
+      <window_info anchor="bottom" id="CMake" order="11" weight="0.3197832" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -664,13 +680,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="35" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Math/FWT.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
@@ -685,16 +694,36 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/String/Suffix_Array.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2200">
+          <caret line="14" column="2" selection-start-line="14" selection-start-column="2" selection-end-line="14" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="57" selection-end-line="11" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="117" column="9" lean-forward="true" selection-start-line="117" selection-start-column="9" selection-end-line="117" selection-end-column="9" />
+        <state relative-caret-position="566">
+          <caret line="231" column="11" lean-forward="true" selection-start-line="231" selection-start-column="11" selection-end-line="231" selection-end-column="11" />
           <folding>
-            <element signature="e#260#339#0" />
-            <element signature="e#344#665#0" />
-            <element signature="e#670#751#0" />
-            <element signature="e#756#835#0" />
-            <element signature="e#840#1000#0" />
+            <element signature="e#224#1026#1" />
+            <element signature="e#284#363#0" />
+            <element signature="e#368#689#0" />
+            <element signature="e#694#775#0" />
+            <element signature="e#780#859#0" />
+            <element signature="e#864#1024#0" />
+            <element signature="e#1187#1816#0" />
+            <element signature="e#4522#5107#0" />
+            <element signature="e#5112#5553#0" />
+            <element signature="e#5558#5931#0" />
+            <element signature="e#5936#6202#0" />
           </folding>
         </state>
       </provider>

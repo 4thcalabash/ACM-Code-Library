@@ -1,10 +1,11 @@
 // Created by calabash_boy on 2019/10/28.
 // CF 100962D 求区间border series，最大border。
+#pragma GCC optimize(3)
 #include <bits/stdc++.h>
 #define rank rkrkrk
 using namespace std;
-const int maxn = 2e5 + 100;
-const int maxlog = 20;
+const int maxn = 4e5 + 100;
+const int maxlog = 19;
 struct Sequence{
     /** l + k*d <=r **/
     int l,r,d;
@@ -60,14 +61,38 @@ Sequence operator &(Sequence S1, Sequence S2){
         }else assert(0);
     }
 }
+struct Run{
+    //S[l,r] is a run of period of length d.
+    int l,r,d;
+    Run(int ll = 0,int rr = 0,int dd = 0){
+        l = ll;r = rr;d = dd;
+    }
+    bool operator < (const Run &other)const{
+        if (l != other.l)return l < other.l;
+        if (r != other.r)return r < other.r;
+        if (d != other.d)return d < other.d;
+        return false;
+    }
+    bool operator == (const Run &other)const{
+        return l == other.l and r == other.r and d == other.d;
+    }
+};
 struct Dictionary_of_Basic_Factories{
     /** 1-base **/
-    int name[maxn][maxlog];
+    int name[maxn][maxlog];int n;
     vector<vector<int> > pos[maxlog];
     int cntA[maxn],cntB[maxn],tsa[maxn],A[maxn],B[maxn];
     int sa[maxn],rank[maxn];
+    int height[maxn];
+    void clear(){
+        for (int i=0;i<=max(n,'z' + 10);i++){
+            cntA[i] = cntB[i] = tsa[i] = A[i] = B[i] = sa[i] = rank[i] = height[i] = 0;
+            for (int k=0;k<maxlog;k++)name[i][k] = 0;
+        }
+        for (int k=0;k<maxlog;k++)pos[k].clear();
+    }
     void init(char * ch,int n){
-        ch[0] = ch[n+1] = -1;
+        ch[0] = ch[n+1] = '#'; this->n = n;
         for (int i=1;i<=n;i++)cntA[ch[i]]++;
         for (int i=1;i<maxn;i++)cntA[i] += cntA[i-1];
         for (int i=n;i>=1;i--)sa[cntA[ch[i]]--] = i;
@@ -101,6 +126,15 @@ struct Dictionary_of_Basic_Factories{
                 name[i][step] = rank[i];
                 pos[step][rank[i]].push_back(i);
             }
+        }
+    }
+    void get_height(char *ch, int n){
+
+        sa[0] = rank[0] = 0;
+        for (int i=1,j=0;i<=n;i++){
+            if (j)j--;
+            while (ch[i+j] == ch[sa[rank[i]-1] +j])j++;
+            height[rank[i]]= j;
         }
     }
     // get sequence [2^step,2^(step+1))
@@ -144,6 +178,53 @@ struct Dictionary_of_Basic_Factories{
             if (seq.r)return seq.r;
         }
         return 0;
+    }
+    int lcp(int x,int y){
+        int len = 0;
+        for (int k = maxlog-1;k>=0;k--){
+            int LEN = 1<< k;
+            if (x + LEN - 1 <= n and y + LEN - 1 <= n and name[x][k] == name[y][k]){
+                len += 1<<k;
+                x += 1<<k;
+                y += 1<<k;
+            }
+        }
+        return len;
+    }
+    int lcs(int x,int y){
+        int len = 0;
+        for (int k = maxlog-1;k>=0;k--){
+            int LEN = 1 << k;
+            if (x >= LEN and y >= LEN and name[x - LEN + 1][k] == name[y - LEN + 1][k]){
+                len += LEN;
+                x -= LEN;
+                y -= LEN;
+            }
+        }
+        return len;
+    }
+    vector<Run> get_all_runs(){
+        // cerr<<n<<endl;
+        vector<Run> run_list(0);
+        for (int per = 1; per * 2 <= n; per ++){
+            for (int pos = per;pos <= n;pos += per){
+                int left = lcs(pos,pos + per);
+                int right = lcp(pos,pos + per);
+                if (left + right > per){
+                    run_list.push_back(Run(pos - left + 1,pos + per + right - 1,per));
+                }
+            }
+        }
+        vector<Run> result(0);
+        pair<int,int> pre = {-1,-1};
+        for (auto run : run_list){
+            pair<int,int> now = {run.l,run.r};
+            if (pre != now){
+                pre = now;
+                result.push_back(run);
+            }
+        }
+        return result;
     }
 }dbf;
 char s[maxn];
