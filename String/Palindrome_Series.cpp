@@ -1,6 +1,7 @@
 // Created by calabash_boy on 19-11-20.
 // CF 932G 偶回文分割方案数
 // 优化DP转移：枚举所有回文后缀转移
+// 使用时，只需要修改3行TBD
 #include<bits/stdc++.h>
 using namespace std;
 const int mod = 1e9 + 7;
@@ -42,11 +43,11 @@ struct Palindromic_AutoMaton{
     }
     void trans(int i){
         for (int p = last;p>1;p = anc[p]){
-            g[p] = f[i - l[anc[p]] - diff[p]];
+            g[p] = f[i - l[anc[p]] - diff[p]];/*TBD*/
             if (diff[p] == diff[fail[p]]){
-                (g[p] += g[fail[p]]) %= mod;
+                (g[p] += g[fail[p]]) %= mod;/*TBD*/
             }
-            (f[i] += (i % 2 == 0) *g[p]) %= mod;
+            (f[i] += (i % 2 == 0) *g[p]) %= mod;/*TBD*/
         }
     }
     int init(char* s){
