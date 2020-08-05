@@ -17,11 +17,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="56a05e1d-1796-4ea0-9f45-104f1f617551" name="Default" comment="update shortest path tree in Dijkstra">
-      <change afterPath="$PROJECT_DIR$/String/EX_KMP.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,103 +28,6 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Math/Matrix.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-              <folding>
-                <element signature="e#1210#1222#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/Dijkstra.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/Tree/Point-Divide&amp;Conquer.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/String/Automaton/Suffix_Automaton.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="20" column="23" selection-end-line="171" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Graph/Tree/Heavy_Light_Decomposition.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/String/Automaton/Count_Substrings_In_Segment.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1729">
-              <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/String/Automaton/Aho-Corasick_Automaton.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/String/EX_KMP.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Math/FWT.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FindInProjectRecents">
     <findStrings>
       <find>int</find>
@@ -144,78 +44,6 @@
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/String/Trie-Graph(SegmentTree).cpp" />
-        <option value="$PROJECT_DIR$/String/Trie-Graph.cpp" />
-        <option value="$PROJECT_DIR$/Math/Gauss.cpp" />
-        <option value="$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp" />
-        <option value="$PROJECT_DIR$/String/Suffix_Array.cpp" />
-        <option value="$PROJECT_DIR$/CMakeLists.txt" />
-        <option value="$PROJECT_DIR$/String/Automaton/C-SAM(CDAWG).cpp" />
-        <option value="$PROJECT_DIR$/String/Palindrome_Series.cpp" />
-        <option value="$PROJECT_DIR$/String/Automaton/Count_Substrings_In_Segment.cpp" />
-        <option value="$PROJECT_DIR$/String/EX_KMP.cpp" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="Graph" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="Math" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="Others" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ACM-Code-Library" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ACM-Code-Library" type="462c0819:PsiDirectoryNode" />
-              <item name="String" type="462c0819:PsiDirectoryNode" />
-              <item name="Automaton" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -234,19 +62,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.SA">
+  <component name="RunManager" selected="CMake Application.Build All">
     <configuration name="Build All" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="ACM-Code-Library" RUN_TARGET_NAME="ACM-Code-Library" EXPLICIT_BUILD_TARGET_NAME="all">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
@@ -283,24 +99,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Build All" />
-      <item itemvalue="Application.DBF" />
-      <item itemvalue="Application.Gauss" />
-      <item itemvalue="Application.SA" />
-      <item itemvalue="Application.SAM" />
-      <item itemvalue="Application.Trie_Graph" />
-      <item itemvalue="Application.Trie_Graph_Segment_Tree" />
+      <item itemvalue="CMake Application.Build All" />
+      <item itemvalue="CMake Application.DBF" />
+      <item itemvalue="CMake Application.Gauss" />
+      <item itemvalue="CMake Application.SA" />
+      <item itemvalue="CMake Application.SAM" />
+      <item itemvalue="CMake Application.Trie_Graph" />
+      <item itemvalue="CMake Application.Trie_Graph_Segment_Tree" />
     </list>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand />
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -459,9 +265,6 @@
     <option name="localTasksCounter" value="10" />
     <servers />
   </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22965000" />
-  </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
@@ -470,33 +273,6 @@
       <are-packages-shown value="true" />
       <is-autoscroll-to-source value="true" />
     </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30196938" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26403326" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.32948583" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32903227" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.547744" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.7013129" visible="true" weight="0.13253012" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.73512745" />
-      <window_info anchor="bottom" id="CMake" order="11" weight="0.3191268" />
-      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Tail" order="13" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -517,12 +293,6 @@
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -555,6 +325,12 @@
     <MESSAGE value="update shortest path tree in Dijkstra" />
     <option name="LAST_COMMIT_MESSAGE" value="update shortest path tree in Dijkstra" />
   </component>
+  <component name="WindowStateProjectService">
+    <state x="883" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1596625594038">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="883" y="165" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1596625594038" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -570,202 +346,5 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Data_Structure/Segment_Tree.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1364">
-          <caret line="62" column="5" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Data_Structure/Segment_Tree(Dynamic_Memory).cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1848">
-          <caret line="84" column="1" selection-start-line="84" selection-start-column="1" selection-end-line="84" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Others/formula.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="19" selection-start-column="19" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/Automaton/Palindromic_Automaton.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1650">
-          <caret line="75" column="1" selection-start-line="75" selection-start-column="1" selection-end-line="75" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/Tree/Edge-Divide&amp;Conquer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2552">
-          <caret line="116" column="28" selection-start-line="116" selection-start-column="28" selection-end-line="116" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/Trie-Graph.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="5" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/Trie-Graph(SegmentTree).cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="12" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Math/Gauss.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="55" column="11" selection-start-line="55" selection-start-column="11" selection-end-line="55" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/Dictionary_of_Basic_Factors.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5082">
-          <caret line="231" column="11" selection-start-line="231" selection-start-column="11" selection-end-line="231" selection-end-column="11" />
-          <folding>
-            <element signature="e#224#1026#1" />
-            <element signature="e#284#363#0" />
-            <element signature="e#368#689#0" />
-            <element signature="e#694#775#0" />
-            <element signature="e#780#859#0" />
-            <element signature="e#864#1024#0" />
-            <element signature="e#1187#1816#0" />
-            <element signature="e#4522#5107#0" />
-            <element signature="e#5112#5553#0" />
-            <element signature="e#5558#5931#0" />
-            <element signature="e#5936#6202#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/Suffix_Array.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4268">
-          <caret line="194" column="13" selection-start-line="194" selection-start-column="13" selection-end-line="194" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/Automaton/C-SAM(CDAWG).cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://A:/MingW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_map.h" />
-    <entry file="file://A:/MingW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h" />
-    <entry file="file://A:/MingW/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h" />
-    <entry file="file://$PROJECT_DIR$/Algorithm/Geometry.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="79" column="18" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/Palindrome_Series.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/KMP.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2090">
-          <caret line="110" column="30" selection-start-line="110" selection-start-column="30" selection-end-line="110" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Math/linear_sieve.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="9" selection-end-line="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/Automaton/Count_Substrings_In_Segment.h" />
-    <entry file="file://$PROJECT_DIR$/Math/Matrix.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-          <folding>
-            <element signature="e#1210#1222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/Dijkstra.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="10" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/Tree/Point-Divide&amp;Conquer.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="50" selection-start-line="7" selection-start-column="50" selection-end-line="7" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/Automaton/Suffix_Automaton.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="23" selection-end-line="171" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Graph/Tree/Heavy_Light_Decomposition.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/Automaton/Count_Substrings_In_Segment.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1729">
-          <caret line="91" column="5" selection-start-line="91" selection-start-column="5" selection-end-line="91" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Math/FWT.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="50" column="1" selection-start-line="50" selection-start-column="1" selection-end-line="50" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/Automaton/Aho-Corasick_Automaton.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/String/EX_KMP.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
