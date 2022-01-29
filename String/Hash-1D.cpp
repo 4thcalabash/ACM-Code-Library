@@ -15,33 +15,25 @@ int s[maxn];
 ULL Prime_Pool[] = {1998585857ul,23333333333ul};
 ULL Seed_Pool[]={911,146527,19260817,91815541};
 ULL Mod_Pool[]={29123,998244353,1000000009,4294967291ull};
-struct Hash_1D{
+struct Hash{
     ULL Seed,Mod;
     ULL bas[maxn];ULL sum[maxn];
     int perm[sigma];
-    void init(int seedIndex,int modIndex){
-        Seed = Seed_Pool[seedIndex];
-        Mod = Mod_Pool[modIndex];
-        bas[0]=1;
-        for (int i=1;i<=n;i++){
-            bas[i] = bas[i-1]*Seed%Mod;
+    Hash(ULL Seed, ULL Mod):Seed(Seed),  Mod(Mod){
+        bas[0] = 1;
+        for (int i = 1; i <= n; i++){
+            bas[i] = bas[i - 1] * Seed % Mod;
         }
+    }
+    void init(){
         for (int i=1;i<=n;i++){
             sum[i] = (sum[i-1]*Seed%Mod+s[i])%Mod;
         }
     }
     /*random_shuffle 离散化id，防止kill_hash*/
-    void indexInit(int seedIndex,int modIndex){
-        for (int i=1;i<n;i++){
-            perm[i]=i;
-        }
+    void indexInit(){
+        iota(perm + 1, perm + 1 + sigma, 1);
         random_shuffle(perm+1,perm+1+sigma);
-        Seed = Seed_Pool[seedIndex];
-        Mod = Mod_Pool[modIndex];
-        bas[0]=1;
-        for (int i=1;i<=n;i++){
-            bas[i] = bas[i-1]*Seed%Mod;
-        }
         for (int i=1;i<=n;i++){
             sum[i] = (sum[i-1]*Seed%Mod+perm[s[i]])%Mod;
         }
@@ -49,7 +41,7 @@ struct Hash_1D{
     ULL getHash(int l,int r){
         return (sum[r]-sum[l-1]*bas[r-l+1]%Mod+Mod)%Mod;
     }
-}hasher[HASH_CNT];
+}hasher[HASH_CNT] = {Hash(Seed_Pool[0], Mod_Pool[0]), Hash(Seed_Pool[1], Mod_Pool[1])};
 map<pair<pair<ULL,ULL>,int>,int>veid;int vecnt;
 map<string,int>id;int idcnt;
 vector<int> pos[maxn];
@@ -64,7 +56,7 @@ int main(){
         sumL[i] = sumL[i-1]+a[i].size();
     }
     for (int i=0;i<HASH_CNT;i++){
-        hasher[i].indexInit(i,i);
+        hasher[i].indexInit();
     }
     int ans = sumL[n]+n-1;
     for (int i=1;i<=n;i++){
